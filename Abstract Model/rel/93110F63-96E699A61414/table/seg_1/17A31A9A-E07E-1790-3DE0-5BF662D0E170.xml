@@ -1,0 +1,174 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_1" id="17A31A9A-E07E-1790-3DE0-5BF662D0E170" name="RBHPA_LOG">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>OJT</sourceObjSchema>
+<sourceObjName>RBHPA_LOG</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<commentInRDBMS>Perhaps this table is overkill, to audit  room pre-allocation changes</commentInRDBMS>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<schemaObject>DD61CB21-E947-9CB5-F4CC-EB516A951FB9</schemaObject>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="RMCID" id="97710204-5634-1751-04E0-DB938C4BF6D2">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>RBHPA_LOG</sourceObjSchema>
+<sourceObjName>RMCID</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="BOOKD" id="43E63BF8-AA3A-3E6B-1721-981C800F6403">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>RBHPA_LOG</sourceObjSchema>
+<sourceObjName>BOOKD</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="AGTID" id="54B442AD-F78F-A374-D54C-CBAF945ACE55">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>RBHPA_LOG</sourceObjSchema>
+<sourceObjName>AGTID</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="OLD_ROOMS" id="0881F91B-FAA5-BFCE-FF62-7CE43C9ED062">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>RBHPA_LOG</sourceObjSchema>
+<sourceObjName>OLD_ROOMS</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<commentInRDBMS>number of rooms before this change</commentInRDBMS>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NEW_ROOMS" id="E6BF9D0F-BFAA-E0A2-6EBA-B341E5B83AFB">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>RBHPA_LOG</sourceObjSchema>
+<sourceObjName>NEW_ROOMS</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<commentInRDBMS>number of rooms after this change</commentInRDBMS>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CREATED_BY" id="4BDA5BBD-0C0B-569D-DAF2-A0159DA7459C">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>RBHPA_LOG</sourceObjSchema>
+<sourceObjName>CREATED_BY</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CREATED_ON" id="0D7EC0D5-9E11-C103-7AA7-EEE38DD9A0C8">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>RBHPA_LOG</sourceObjSchema>
+<sourceObjName>CREATED_ON</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID" id="C8362FED-937C-3BB6-60D4-ABC658E8AF89">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>RBHPA_LOG</sourceObjSchema>
+<sourceObjName>ID</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<commentInRDBMS>from sequence</commentInRDBMS>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="RBHPAID" id="9523F86C-89F6-ED2B-0B89-9DA5867EBE91">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>RBHPA_LOG</sourceObjSchema>
+<sourceObjName>RBHPAID</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="941CA539-49C3-363B-28D6-DAC661078985" name="RBHPA_LOG_PK">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>OJT</sourceObjSchema>
+<sourceObjName>RBHPA_LOG_PK</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<schemaObject>DD61CB21-E947-9CB5-F4CC-EB516A951FB9</schemaObject>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C8362FED-937C-3BB6-60D4-ABC658E8AF89"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D63D84C8-A792-36FA-0776-BBE95E36CD28" name="RBHPA_LOG_IDX">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>OJT</sourceObjSchema>
+<sourceObjName>RBHPA_LOG_IDX</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<schemaObject>DD61CB21-E947-9CB5-F4CC-EB516A951FB9</schemaObject>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="54B442AD-F78F-A374-D54C-CBAF945ACE55"/>
+<colUsage columnID="97710204-5634-1751-04E0-DB938C4BF6D2"/>
+<colUsage columnID="43E63BF8-AA3A-3E6B-1721-981C800F6403"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

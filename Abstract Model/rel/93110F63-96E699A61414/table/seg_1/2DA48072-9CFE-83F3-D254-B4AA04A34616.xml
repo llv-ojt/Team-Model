@@ -1,0 +1,263 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_1" id="2DA48072-9CFE-83F3-D254-B4AA04A34616" name="SP">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>OJT</sourceObjSchema>
+<sourceObjName>SP</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<commentInRDBMS>Service providers, suppliers, creditors</commentInRDBMS>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<schemaObject>DD61CB21-E947-9CB5-F4CC-EB516A951FB9</schemaObject>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="SPID" id="83B9F461-038F-E4F6-A51D-24B5E154EEA9">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>SP</sourceObjSchema>
+<sourceObjName>SPID</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<commentInRDBMS>primary key, from ID_SEQ</commentInRDBMS>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SPTYPES" id="6508CB55-F53C-E9AA-DA1D-59CB362DB4F2">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>SP</sourceObjSchema>
+<sourceObjName>SPTYPES</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<commentInRDBMS>bound to be some types we think of later</commentInRDBMS>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SPNAME" id="BE10CC60-27EB-4B0A-3F60-8D838694FC4B">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>SP</sourceObjSchema>
+<sourceObjName>SPNAME</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<commentInRDBMS>supplier name</commentInRDBMS>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SPCONTACT" id="FE009BDF-59F0-1FAE-063D-974EA32A8E8B">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>SP</sourceObjSchema>
+<sourceObjName>SPCONTACT</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<commentInRDBMS>the name of the person we deal with</commentInRDBMS>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SPEMAIL" id="AC0707B6-7187-656D-F770-A6EFDCCEB544">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>SP</sourceObjSchema>
+<sourceObjName>SPEMAIL</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SPADDRESS1" id="5E1D5DBB-4BBC-1AF2-6009-75892854B2E3">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>SP</sourceObjSchema>
+<sourceObjName>SPADDRESS1</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SPADDRESS2" id="A879F6AF-2C48-0052-5F5E-A43640EC85BE">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>SP</sourceObjSchema>
+<sourceObjName>SPADDRESS2</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SPHONE" id="34261D98-28A7-4D85-0B47-809D7579041A">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>SP</sourceObjSchema>
+<sourceObjName>SPHONE</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SPNOTES" id="AA95A666-871B-035E-068B-C295997758CC">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>SP</sourceObjSchema>
+<sourceObjName>SPNOTES</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>4000 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SPAMOUNTOWED" id="00A8A554-7764-02DB-850E-B2825D5B711B">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>SP</sourceObjSchema>
+<sourceObjName>SPAMOUNTOWED</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<defaultValue>0</defaultValue>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SPCREDITLIMIT" id="4DFA16B4-6273-0476-68E2-DB452E649F13">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>SP</sourceObjSchema>
+<sourceObjName>SPCREDITLIMIT</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<defaultValue>0</defaultValue>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SPCURRENCY" id="AF353873-C80D-DB93-AEFA-B38C9255C0EC">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>SP</sourceObjSchema>
+<sourceObjName>SPCURRENCY</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>3 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SPLASTPAYD" id="C96E88F1-0ABA-0FE7-E9A3-B20DC6C4CF0D">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>SP</sourceObjSchema>
+<sourceObjName>SPLASTPAYD</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<commentInRDBMS>Date we last made a payment to them</commentInRDBMS>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SPVAT" id="D5F2F8CF-F292-D255-153A-5D889D60569E">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>SP</sourceObjSchema>
+<sourceObjName>SPVAT</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<commentInRDBMS>V=VATable entity;N=Not VATable</commentInRDBMS>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="OARSLOGDT" id="0237EBF8-6B83-9F38-3471-116BC6ADC93F">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>SP</sourceObjSchema>
+<sourceObjName>OARSLOGDT</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SPSETTLE" id="7733A948-8214-9225-2FE2-3705535335EB">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>SP</sourceObjSchema>
+<sourceObjName>SPSETTLE</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="21A5449C-AC64-2045-DF50-629FFA4C13DC" name="SP_PK">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>OJT</sourceObjSchema>
+<sourceObjName>SP_PK</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<schemaObject>DD61CB21-E947-9CB5-F4CC-EB516A951FB9</schemaObject>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="83B9F461-038F-E4F6-A51D-24B5E154EEA9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

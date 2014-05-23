@@ -1,0 +1,123 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_1" id="E5E198F5-705F-2418-88EB-F7B5C3797E4F" name="RESES">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>OJT</sourceObjSchema>
+<sourceObjName>RESES</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<commentInRDBMS>This table holds the extra services that are added to the daily room rate&lt;br/&gt;eg extra pax, baby cot etc</commentInRDBMS>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<schemaObject>DD61CB21-E947-9CB5-F4CC-EB516A951FB9</schemaObject>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="RESID" id="D2AF1F2B-9E3A-5D41-47D9-631B002C6F2D">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>RESES</sourceObjSchema>
+<sourceObjName>RESID</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<commentInRDBMS>pointer to RES</commentInRDBMS>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ESID" id="8FD19190-84A8-E9FA-E610-2EC2DBE26A35">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>RESES</sourceObjSchema>
+<sourceObjName>ESID</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<commentInRDBMS>pointer to ES</commentInRDBMS>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CURR" id="335BB290-C0D9-47D1-9CEB-B591F0847AD0">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>RESES</sourceObjSchema>
+<sourceObjName>CURR</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<commentInRDBMS>Currency code</commentInRDBMS>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>3 BYTE</dataTypeSize>
+<defaultValue>&apos;PHP&apos;</defaultValue>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PRICE" id="90DF2CFC-BB27-4D23-CFCE-2C0DAC161B4B">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>RESES</sourceObjSchema>
+<sourceObjName>PRICE</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<commentInRDBMS>Price recorded here in case master record changes or deleted which in theory will not happen</commentInRDBMS>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="QTY" id="4866EFF3-A0F5-4466-30B1-C2422D1E13B5">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>RESES</sourceObjSchema>
+<sourceObjName>QTY</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<commentInRDBMS>At this stage, only can be &quot;One of&quot;. More than 1 of any of these would be so rare that it would be worth making a &quot;two of&quot; version when needed.</commentInRDBMS>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>1</dataTypePrecision>
+<defaultValue>1</defaultValue>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="5CA233EA-1051-BF22-004B-91C93BE887FE" name="RESES_PK">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>OJT</sourceObjSchema>
+<sourceObjName>RESES_PK</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<schemaObject>DD61CB21-E947-9CB5-F4CC-EB516A951FB9</schemaObject>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D2AF1F2B-9E3A-5D41-47D9-631B002C6F2D"/>
+<colUsage columnID="8FD19190-84A8-E9FA-E610-2EC2DBE26A35"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1E30DF69-2C20-56C1-E1A9-16D10EB22E70" name="RESES_IDX">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>OJT</sourceObjSchema>
+<sourceObjName>RESES_IDX</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<schemaObject>DD61CB21-E947-9CB5-F4CC-EB516A951FB9</schemaObject>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8FD19190-84A8-E9FA-E610-2EC2DBE26A35"/>
+<colUsage columnID="D2AF1F2B-9E3A-5D41-47D9-631B002C6F2D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

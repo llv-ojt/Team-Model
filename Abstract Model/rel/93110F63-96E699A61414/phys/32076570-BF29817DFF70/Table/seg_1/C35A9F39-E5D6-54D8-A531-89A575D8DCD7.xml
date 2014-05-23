@@ -1,0 +1,364 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="RES_ARC" directorySegmentName="seg_1" id="C35A9F39-E5D6-54D8-A531-89A575D8DCD7">
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<schemaObject>DD61CB21-E947-9CB5-F4CC-EB516A951FB9</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>40AB11D9-A281-8325-623D-BDF909695F27</segment>
+<tableSpace>USERS</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="Z_RES_ID_IDX" id="217B2964-57BF-3C89-EB07-A765D44D5E08">
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<schemaObject>DD61CB21-E947-9CB5-F4CC-EB516A951FB9</schemaObject>
+<segment>40AB11D9-A281-8325-623D-BDF909695F27</segment>
+<tableSpace>BEBD602C-2802-60C2-A11D-91A797493A75</tableSpace>
+</IndexProxy>
+</indexProxies>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="RATE_GROSS" id="03602D1D-661F-FB05-B0F6-82622EA2228C">
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CHECKOUT_EXRATE" id="04A9EA32-0479-C371-74D7-D24B5C83DA95">
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CANFEE" id="0CDB703E-C781-8923-1B2E-3473A4DB9012">
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="WEBID" id="0DC1B6D7-F016-3252-170D-C32C3A507CC5">
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="VER" id="0F825855-3FE5-27C8-7A1A-2C4B71259CD1">
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ADULTS" id="12619C11-5FB0-4561-98EF-3CF7A3F9B5B8">
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="DEPOSIT" id="1329B088-64C1-28F5-68FE-E90B17A55EF1">
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<defaultValue>0</defaultValue>
+</ColumnProxy>
+<ColumnProxy name="REFERERID" id="1452BB5A-AD9C-3032-438F-6BA2C84966A4">
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ALTERBY" id="16546299-1678-3BC2-3921-37BFBF42374A">
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="PAYID" id="254971CF-2112-F288-8EF1-4F0F7D5DB386">
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="PARTYSIZE" id="2BC77D66-DFF9-6B37-53D5-CD7B33D40EF4">
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="SOURCER" id="307444DB-3D28-A20F-9B4F-A5522DB40435">
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="VATVAL" id="36E8EC7C-4DB4-B9C0-EDED-415267D107CF">
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="TWINSHARE" id="39323BF2-2494-2777-95A2-8F0128B71114">
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="RATE_SC" id="3B589CD8-86D5-1D32-1922-2FDD6990D5C2">
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="VAT" id="3D4A5E06-6C8F-7927-B1B0-53EFE5C76281">
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="AGTRECOND" id="3E033E9F-7596-4EC9-C75A-52DBC61EB1C1">
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ID" id="4966E747-BA88-C782-6CAC-014059301F34">
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="DIVING" id="4AB2E7D6-8A1F-2A3C-9588-F1827073D56B">
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ARRIVETIME" id="54AA80E4-5D8E-EE7C-154F-698A636A9E34">
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="DISCOUNT" id="565B825E-74C6-247D-7E75-A875F31A2EF9">
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="RATE_VAT" id="5A3A7804-13D3-94F7-547E-987BECEDB324">
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CHILDREN" id="5BB119A0-94B6-1F70-6CFE-032AEDBE4E67">
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="SUPERCEDEDID" id="61AC8860-7772-F449-3C15-8F5D9BE30742">
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="EXTRABEDS" id="64E994AD-14E7-CC30-8DBF-887CB7D99043">
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<defaultValue>0</defaultValue>
+</ColumnProxy>
+<ColumnProxy name="STATUS" id="72008707-A112-848D-3B24-D8B2608F88C0">
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="INFANTS" id="74A58427-81EF-C1B2-A024-30230121C000">
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="DIVEWITH" id="7BADF2DE-733A-71B6-BB8C-AAA24EFDFBB8">
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<defaultValue>&apos;A&apos;</defaultValue>
+</ColumnProxy>
+<ColumnProxy name="AGENTID" id="7D3E2230-CE4D-F5FF-CA03-2CE7D7CC98B2">
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="NIGHTS" id="8212EA69-2A43-A869-C1A9-6A573C648013">
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="BOOKCURR" id="825401C9-17F0-D2E0-CD51-85489AD6AD79">
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="VILLAID" id="853E5F38-EFB5-4489-88C2-513B4F87C3AE">
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="PACKAGEID" id="89A8AEEF-568B-0783-FEFA-F063BF13574D">
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CHARGES_USD" id="8BBBD661-1132-A57C-3B66-AB3AD0AA0F82">
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="EXRATE" id="8E8F9A37-644F-D324-ED64-7FE7B8F18EC3">
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="DIVEPAX" id="8EAF6658-B4D6-B2BC-BEF9-AAB090CFF671">
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="LDEPOSIT" id="910EE179-AC86-F7A5-C4CA-5DB6D2FE37B3">
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<defaultValue>0</defaultValue>
+</ColumnProxy>
+<ColumnProxy name="COLLECTOR" id="960E14E5-7385-0D80-DDE9-FA4773A67E6D">
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CANCELD" id="97A2A5C6-4426-8F0B-C938-83FBCC3A3D32">
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="RATECHANGE" id="995D787E-C2FB-0543-C664-426D9B91E36F">
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="GUESTID" id="9C1764FE-3D09-FABF-18E6-4EF1D7DD4D31">
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="RATE" id="A118D70B-2B16-0147-5DA0-CB0532EB6D6A">
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="OWNERBOOKED" id="A5A68A67-2437-0984-4AA3-81CADA39845E">
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="COMMISSION" id="A5E1EF46-AD6F-3BAA-B6B3-C54ED2FF5966">
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="RATE_COMM" id="AB6E3628-C139-0044-ED8D-F7306D568E46">
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CHARGES_PHP" id="ABDA0A50-6230-3A56-C271-75E8EE8395E9">
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ZERORATEREASON" id="AEB1F522-E474-19F3-2EC0-8C3752E14ED7">
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="DEPARTTIME" id="B1172DF1-1D85-282C-AC61-1C0767448946">
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="OPTIONS" id="B9DA39A7-C891-3614-37D7-5890C7318691">
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="TRANSPORTMETHOD" id="BE13B647-8D4B-D466-3F79-1C6AB26273E4">
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="NOTES" id="C17E69AB-A90B-D56D-AC3E-98FAADB569C1">
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="MBID" id="C33F8D8C-E209-F87E-BBE7-EF14361BC936">
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="TABRECON" id="C3CEF190-97E8-77C0-0987-A22DEEE30B50">
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ENTRYBY" id="CF09A083-1247-6FDB-EA8E-DBFB754DF34E">
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="SOURCES" id="D275F9F7-328E-5334-A77E-C3ED327388A7">
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="RATE_XTRA" id="D647BDC1-6749-9C01-4C7E-F746BE197062">
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="OARSLOGDT" id="DD13DF73-A934-AA7D-48A7-200749416697">
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ARRIVEDATE" id="DFBE38CD-B6CA-928E-CA9D-09C08D5A423B">
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="DEPARTDATE" id="E18E806E-868A-4A20-DE47-F9F1EC85F5ED">
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="EXTRACOTS" id="E24EDAB8-4D0E-F163-5D39-928D5B5B93D2">
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<defaultValue>0</defaultValue>
+</ColumnProxy>
+<ColumnProxy name="ALTERDT" id="E6E73881-66DB-B717-43A1-F678D76367C4">
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="GIID" id="ECC884E5-69E8-5B55-9874-1A091F49C7CD">
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="SUPERCEDESID" id="EEB344B7-3628-02C6-A9FB-C0D72DB60999">
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="WHYDISCOUNT" id="F444FB2C-1BE7-EAED-2837-772134EDDA4F">
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="SERVCHGE" id="F48FA055-69C6-537F-DBA2-A15B9A8985E8">
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ENTRYDT" id="F4B3984B-198F-C51B-1145-D68AE386162F">
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CANCEL" id="FA21652B-88EC-1A96-1A52-FBC87F521894">
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+</TableProxyOraclev11g>

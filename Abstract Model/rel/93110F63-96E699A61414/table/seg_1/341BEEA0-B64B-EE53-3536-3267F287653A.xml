@@ -1,0 +1,904 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_1" id="341BEEA0-B64B-EE53-3536-3267F287653A" name="RES_LLV">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>OJT</sourceObjSchema>
+<sourceObjName>RES_LLV</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<schemaObject>DD61CB21-E947-9CB5-F4CC-EB516A951FB9</schemaObject>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="87469706-C8CB-CD62-72F1-17B8A2402BD7">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>RES_LLV</sourceObjSchema>
+<sourceObjName>ID</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="GUESTID" id="01224195-835C-8DEF-959B-1B5BDACD30B2">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>RES_LLV</sourceObjSchema>
+<sourceObjName>GUESTID</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="VILLAID" id="C71FA3C1-FEA5-9682-50FB-8D28CD28B06F">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>RES_LLV</sourceObjSchema>
+<sourceObjName>VILLAID</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="AGENTID" id="CB1116BE-D00E-88F6-0B76-C209D7D2BDEE">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>RES_LLV</sourceObjSchema>
+<sourceObjName>AGENTID</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="GIID" id="554A3ECA-F95A-1677-B7E3-9EBAE58BC351">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>RES_LLV</sourceObjSchema>
+<sourceObjName>GIID</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="STATUS" id="DD87CC0B-8ECB-F223-9FA0-F8FB8EF182B8">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>RES_LLV</sourceObjSchema>
+<sourceObjName>STATUS</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ARRIVEDATE" id="E51202A0-EAEF-5CA1-839D-8389252A518F">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>RES_LLV</sourceObjSchema>
+<sourceObjName>ARRIVEDATE</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ARRIVETIME" id="5E54B000-6C1B-BCDF-DFDD-CE08816C0309">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>RES_LLV</sourceObjSchema>
+<sourceObjName>ARRIVETIME</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>4 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DEPARTDATE" id="0F84A99B-37D2-5D49-E92B-0F6D5DCBD96D">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>RES_LLV</sourceObjSchema>
+<sourceObjName>DEPARTDATE</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DEPARTTIME" id="30A1A76B-D6E6-6196-5E35-60E9E00AC8D8">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>RES_LLV</sourceObjSchema>
+<sourceObjName>DEPARTTIME</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>4 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ADULTS" id="281B428A-594F-078E-BC6B-4707D72C8A6B">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>RES_LLV</sourceObjSchema>
+<sourceObjName>ADULTS</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CHILDREN" id="687029A5-D09C-E4F7-A322-3E48222FE532">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>RES_LLV</sourceObjSchema>
+<sourceObjName>CHILDREN</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="INFANTS" id="F66CB520-1860-CCCC-D8A0-832096251E17">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>RES_LLV</sourceObjSchema>
+<sourceObjName>INFANTS</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TRANSPORTMETHOD" id="E9631B75-2F7E-359F-9734-720862AD4274">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>RES_LLV</sourceObjSchema>
+<sourceObjName>TRANSPORTMETHOD</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="RATE" id="2D95DED2-AF36-E7C8-2C67-DCC785B51BCA">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>RES_LLV</sourceObjSchema>
+<sourceObjName>RATE</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SOURCES" id="033DA560-30C6-471E-F535-8CEB2252AA76">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>RES_LLV</sourceObjSchema>
+<sourceObjName>SOURCES</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SOURCER" id="B3583188-9C57-4E52-5795-AB449B28D7FA">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>RES_LLV</sourceObjSchema>
+<sourceObjName>SOURCER</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="REFERERID" id="6DD779B0-259A-EFE2-4B13-E236196702AB">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>RES_LLV</sourceObjSchema>
+<sourceObjName>REFERERID</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOTES" id="10085410-BCFB-91AF-709A-EFCB78BC7355">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>RES_LLV</sourceObjSchema>
+<sourceObjName>NOTES</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>400 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="USERID" id="94E5CF72-B35F-10BC-1666-F4795BE8F24F">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>RES_LLV</sourceObjSchema>
+<sourceObjName>USERID</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CREATEDATE" id="E0F11335-2626-314A-2697-A73A9C205251">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>RES_LLV</sourceObjSchema>
+<sourceObjName>CREATEDATE</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PACKAGEID" id="5FB37331-6341-AD87-A4A0-DF4AD830A03C">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>RES_LLV</sourceObjSchema>
+<sourceObjName>PACKAGEID</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>38</dataTypePrecision>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="EXRATE" id="BA421334-E816-5AFA-DA91-057A289AC1DE">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>RES_LLV</sourceObjSchema>
+<sourceObjName>EXRATE</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="OWNERBOOKED" id="4D9BA0F3-1C1C-9211-79F4-3218D9AA3441">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>RES_LLV</sourceObjSchema>
+<sourceObjName>OWNERBOOKED</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CANCEL" id="0B9D60D0-2FF0-8404-A8BA-49EC048C9EF1">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>RES_LLV</sourceObjSchema>
+<sourceObjName>CANCEL</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ALLDETAILS" id="072C5468-D494-9669-6A40-A8E057DFFF8C">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>RES_LLV</sourceObjSchema>
+<sourceObjName>ALLDETAILS</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="COMMISSION" id="56131426-4C80-BE21-F4D1-7E624AE8D39D">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>RES_LLV</sourceObjSchema>
+<sourceObjName>COMMISSION</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SUPERCEDEDID" id="359DD3DC-3B74-549C-FBDD-A4396D671535">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>RES_LLV</sourceObjSchema>
+<sourceObjName>SUPERCEDEDID</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>38</dataTypePrecision>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PARTYSIZE" id="9D041FB4-C8C0-5DED-DEAC-38540895E0CE">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>RES_LLV</sourceObjSchema>
+<sourceObjName>PARTYSIZE</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DISCOUNT" id="56DF19F1-E77C-3BE6-97DC-823911119D14">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>RES_LLV</sourceObjSchema>
+<sourceObjName>DISCOUNT</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ZERORATEREASON" id="0072E8B9-DBAE-B30E-4669-64F5C8293730">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>RES_LLV</sourceObjSchema>
+<sourceObjName>ZERORATEREASON</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ANALYSISINCLUDE" id="BE9A8D08-4A05-8C3F-BDF2-62328804C25A">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>RES_LLV</sourceObjSchema>
+<sourceObjName>ANALYSISINCLUDE</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CHARGES_PHP" id="A3BA8697-A801-7097-5C17-12DA353F6D82">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>RES_LLV</sourceObjSchema>
+<sourceObjName>CHARGES_PHP</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CHARGES_USD" id="758541D4-6E22-9692-8199-114D6E58120A">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>RES_LLV</sourceObjSchema>
+<sourceObjName>CHARGES_USD</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CHECKOUT_EXRATE" id="786CFC3C-5DED-D740-AD5B-4F27E6BD923C">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>RES_LLV</sourceObjSchema>
+<sourceObjName>CHECKOUT_EXRATE</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PAYID" id="BF71D9CC-3955-AE91-D10F-612F8D6BBE28">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>RES_LLV</sourceObjSchema>
+<sourceObjName>PAYID</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MBID" id="3DA0EF84-3DAA-2392-A004-F06E4AB27F66">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>RES_LLV</sourceObjSchema>
+<sourceObjName>MBID</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="COLLECTOR" id="FBC58B6D-E4B7-EA8E-0ABC-E00264B2A1D6">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>RES_LLV</sourceObjSchema>
+<sourceObjName>COLLECTOR</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CREATETIME" id="41FBD628-4510-9134-3606-33DF98B33E6B">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>RES_LLV</sourceObjSchema>
+<sourceObjName>CREATETIME</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT047</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TWINSHARE" id="36F52913-38FF-5430-7B65-28E54127C6B4">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>RES_LLV</sourceObjSchema>
+<sourceObjName>TWINSHARE</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="VER" id="70188219-FC7C-DE39-A983-E716AFFF60C1">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>RES_LLV</sourceObjSchema>
+<sourceObjName>VER</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="EXTRABEDS" id="0542DCAF-5D9C-F4A5-525D-6BB8D7940B34">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>RES_LLV</sourceObjSchema>
+<sourceObjName>EXTRABEDS</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="EXTRACOTS" id="090A06D6-5A7A-130D-E0E3-1A17EF3C9830">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>RES_LLV</sourceObjSchema>
+<sourceObjName>EXTRACOTS</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DIVING" id="0DB42A05-8DA3-FB85-C02F-42B9835A697A">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>RES_LLV</sourceObjSchema>
+<sourceObjName>DIVING</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DIVEWITH" id="D42E2EBA-4BFE-0B06-BE53-768D39EEB6C1">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>RES_LLV</sourceObjSchema>
+<sourceObjName>DIVEWITH</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DIVEPAX" id="E52B6B85-8B28-854D-2BEF-4E6622DA7E7E">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>RES_LLV</sourceObjSchema>
+<sourceObjName>DIVEPAX</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="VAT" id="5D84CB5D-1CBA-DB69-4BE0-EAB6D23B8BD4">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>RES_LLV</sourceObjSchema>
+<sourceObjName>VAT</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="VATVAL" id="F15624B2-CADC-8608-A5A9-242368B3D526">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>RES_LLV</sourceObjSchema>
+<sourceObjName>VATVAL</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="WEBID" id="31277B1A-3620-306D-9F97-65A7E4BD1FE6">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>RES_LLV</sourceObjSchema>
+<sourceObjName>WEBID</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="WHYDISCOUNT" id="267386DB-FC02-4F39-44AE-684410B53E50">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>RES_LLV</sourceObjSchema>
+<sourceObjName>WHYDISCOUNT</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="RATECHANGE" id="3DFFD164-9DC9-857B-2FD9-539FF6550B99">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>RES_LLV</sourceObjSchema>
+<sourceObjName>RATECHANGE</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DEPOSIT" id="1BB1AD64-1E6A-3E86-5920-E80582259AD8">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>RES_LLV</sourceObjSchema>
+<sourceObjName>DEPOSIT</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CANFEE" id="4C0050E3-9449-4020-C527-CF9ABB3D0B4D">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>RES_LLV</sourceObjSchema>
+<sourceObjName>CANFEE</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ENTRYDT" id="9869CEB5-90EF-AADA-B9AA-528D1600D107">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>RES_LLV</sourceObjSchema>
+<sourceObjName>ENTRYDT</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT047</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ENTRYBY" id="E08F5CE5-950A-71C6-890E-E9A90AA30257">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>RES_LLV</sourceObjSchema>
+<sourceObjName>ENTRYBY</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ALTERDT" id="0C2F83EA-8EFA-FB2C-5FA3-A01CCB85C492">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>RES_LLV</sourceObjSchema>
+<sourceObjName>ALTERDT</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT047</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ALTERBY" id="CD41C08C-B03A-5F15-66B7-711D22673E22">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>RES_LLV</sourceObjSchema>
+<sourceObjName>ALTERBY</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LDEPOSIT" id="C93C94FB-F7D3-E913-F9D7-03BE089B307A">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>RES_LLV</sourceObjSchema>
+<sourceObjName>LDEPOSIT</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CANCELD" id="8B7FAC07-6D16-A96E-1DC8-EB4EF264A6B6">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>RES_LLV</sourceObjSchema>
+<sourceObjName>CANCELD</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SUPERCEDESID" id="B26CF9F3-C848-638E-E8CA-0D5CCB113801">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>RES_LLV</sourceObjSchema>
+<sourceObjName>SUPERCEDESID</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TABRECON" id="B3E86F54-4E69-4A6A-C008-D20356975B39">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>RES_LLV</sourceObjSchema>
+<sourceObjName>TABRECON</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="BOOKCURR" id="08A954B3-CAD1-41B5-33F8-60B7EA75B858">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>RES_LLV</sourceObjSchema>
+<sourceObjName>BOOKCURR</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>3 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SERVCHGE" id="65FC42E8-A4E0-60C0-3EFD-C21614CB7ED9">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>RES_LLV</sourceObjSchema>
+<sourceObjName>SERVCHGE</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+</Table>

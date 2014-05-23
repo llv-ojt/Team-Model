@@ -1,0 +1,113 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_1" id="A3193141-A06F-C305-2D32-FD0C0A60D466" name="WS">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>OJT</sourceObjSchema>
+<sourceObjName>WS</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<schemaObject>DD61CB21-E947-9CB5-F4CC-EB516A951FB9</schemaObject>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="WLID" id="0E8B75F0-85CB-309A-D75E-165A90AE7C82">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>WS</sourceObjSchema>
+<sourceObjName>WLID</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="STDATE" id="813C87F8-8814-12FD-F1E4-CD3FB67575BB">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>WS</sourceObjSchema>
+<sourceObjName>STDATE</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="QTY" id="BD1496D3-BCB6-3E26-0551-80EB5EE05BBF">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>WS</sourceObjSchema>
+<sourceObjName>QTY</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOTES" id="9D1B8DCF-0067-C583-C2E3-9C830580342D">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>WS</sourceObjSchema>
+<sourceObjName>NOTES</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="OARSLOGDT" id="D8D4A556-5918-8063-4CB1-B9A06353145B">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>WS</sourceObjSchema>
+<sourceObjName>OARSLOGDT</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="69FD103A-B357-095C-7AAB-550255530A57" name="WS_PK">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>OJT</sourceObjSchema>
+<sourceObjName>WS_PK</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<schemaObject>DD61CB21-E947-9CB5-F4CC-EB516A951FB9</schemaObject>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0E8B75F0-85CB-309A-D75E-165A90AE7C82"/>
+<colUsage columnID="813C87F8-8814-12FD-F1E4-CD3FB67575BB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1761F801-D822-F839-8CC2-27430CCD1F9B" name="WS_INDEX1">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>OJT</sourceObjSchema>
+<sourceObjName>WS_INDEX1</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<schemaObject>DD61CB21-E947-9CB5-F4CC-EB516A951FB9</schemaObject>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0E8B75F0-85CB-309A-D75E-165A90AE7C82"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

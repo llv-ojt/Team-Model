@@ -1,0 +1,119 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="DBD52D40-2C3C-C28A-31E0-7006C2445842" name="DOC">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>OJT</sourceObjSchema>
+<sourceObjName>DOC</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:29 UTC</createdTime>
+<commentInRDBMS>Release notes accompanying any change to the production system</commentInRDBMS>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<schemaObject>DD61CB21-E947-9CB5-F4CC-EB516A951FB9</schemaObject>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="D63E0724-69CF-397B-E181-4E1BF7FEBD13">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>DOC</sourceObjSchema>
+<sourceObjName>ID</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<commentInRDBMS>from doc.seq</commentInRDBMS>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="RELEASEDT" id="56F4451A-882C-A10C-AD77-6DFF9DACFF4D">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>DOC</sourceObjSchema>
+<sourceObjName>RELEASEDT</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<commentInRDBMS>server timestamp will  do</commentInRDBMS>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MODULE" id="24F979CA-9557-350F-F028-D66E84D034AD">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>DOC</sourceObjSchema>
+<sourceObjName>MODULE</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<commentInRDBMS>relevant area of the system</commentInRDBMS>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<defaultValue>0</defaultValue>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SHORTDES" id="BC4DA42C-D83B-00AB-6F20-07F14BEFB567">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>DOC</sourceObjSchema>
+<sourceObjName>SHORTDES</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<commentInRDBMS>short description</commentInRDBMS>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LONGDES" id="C5DC0AFE-C7C2-1BB8-BF68-6166F0A47E98">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>DOC</sourceObjSchema>
+<sourceObjName>LONGDES</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<commentInRDBMS>full description</commentInRDBMS>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>4000 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="OARSLOGDT" id="E8B6BF12-048F-7A15-1C29-A5858B88F6D4">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>DOC</sourceObjSchema>
+<sourceObjName>OARSLOGDT</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="70CDF723-92FF-AA89-616B-CB507EC12C1A" name="DOC_PK">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>OJT</sourceObjSchema>
+<sourceObjName>DOC_PK</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<schemaObject>DD61CB21-E947-9CB5-F4CC-EB516A951FB9</schemaObject>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D63E0724-69CF-397B-E181-4E1BF7FEBD13"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,253 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="EE216729-33F0-1F28-E1A2-4ED408AC910D" name="DAYSUM">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>OJT</sourceObjSchema>
+<sourceObjName>DAYSUM</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:29 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<schemaObject>DD61CB21-E947-9CB5-F4CC-EB516A951FB9</schemaObject>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="NIGHTD" id="675E46CF-6391-469B-264C-19DC428E1BDD">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>DAYSUM</sourceObjSchema>
+<sourceObjName>NIGHTD</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<commentInRDBMS>summary figures pertain to the night of this date </commentInRDBMS>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<defaultValue>sysdate</defaultValue>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="STATUS" id="CC87DD19-0B82-F7AC-89E0-E574375FF39F">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>DAYSUM</sourceObjSchema>
+<sourceObjName>STATUS</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<commentInRDBMS>STATUS can be: Locked, Final, Superceded, Budget, Revised budget</commentInRDBMS>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="RM_AVAIL" id="BABF279A-1CC5-626C-8AFA-BF8FC83306FA">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>DAYSUM</sourceObjSchema>
+<sourceObjName>RM_AVAIL</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<commentInRDBMS>Total rooms available for rent</commentInRDBMS>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<defaultValue>0</defaultValue>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="RM_UNAVAIL" id="CCE0EFF2-E33F-A9EF-1EB3-4BBCC1275327">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>DAYSUM</sourceObjSchema>
+<sourceObjName>RM_UNAVAIL</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<commentInRDBMS>Total rooms unavailable ie booked with a status code of 0 = unavailable</commentInRDBMS>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<defaultValue>0</defaultValue>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="RM_SOLD" id="6B81E7A1-B08B-DA24-DE37-FC10DB603D10">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>DAYSUM</sourceObjSchema>
+<sourceObjName>RM_SOLD</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<commentInRDBMS>rooms sold</commentInRDBMS>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<defaultValue>0</defaultValue>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="RM_REVG" id="73BD096B-2CBB-5154-FF0A-DFC263936A34">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>DAYSUM</sourceObjSchema>
+<sourceObjName>RM_REVG</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<commentInRDBMS>gross room revenue</commentInRDBMS>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<defaultValue>0</defaultValue>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="RM_REVN" id="C669F54C-7FD0-FD44-A71E-1B424918DB37">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>DAYSUM</sourceObjSchema>
+<sourceObjName>RM_REVN</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<commentInRDBMS>net room revenue ie gross - vat - service - referer commission</commentInRDBMS>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<defaultValue>0</defaultValue>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FB_COVERS" id="04F89120-F61C-8B29-D652-0AE700693C30">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>DAYSUM</sourceObjSchema>
+<sourceObjName>FB_COVERS</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<commentInRDBMS>restaurant patrons ie PT.PAX</commentInRDBMS>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<defaultValue>0</defaultValue>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FB_REVG" id="54AE832A-204F-27A9-40B8-FF74C542C6D6">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>DAYSUM</sourceObjSchema>
+<sourceObjName>FB_REVG</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<commentInRDBMS>gross FB revenue</commentInRDBMS>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<defaultValue>0</defaultValue>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FB_REVN" id="A527E753-3536-FE3D-54D9-6A65D69C0BEB">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>DAYSUM</sourceObjSchema>
+<sourceObjName>FB_REVN</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<commentInRDBMS>net FOOD BEV revnue ie gross - vat - service - referer commission</commentInRDBMS>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<defaultValue>0</defaultValue>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="OTHER_REVG" id="1E8E4CCD-55ED-22A4-1AA9-F304A22416AF">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>DAYSUM</sourceObjSchema>
+<sourceObjName>OTHER_REVG</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<commentInRDBMS>Other revenue (extra services other than FB) gross</commentInRDBMS>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<defaultValue>0</defaultValue>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="OTHER_REVN" id="221473AE-4B33-2DD7-63DF-B9BCBD12C6D2">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>DAYSUM</sourceObjSchema>
+<sourceObjName>OTHER_REVN</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<commentInRDBMS>Other revenue net</commentInRDBMS>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<defaultValue>0</defaultValue>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="OARSLOGDT" id="7AFF0DAD-361F-3BDA-94E5-615F0DAB5811">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>DAYSUM</sourceObjSchema>
+<sourceObjName>OARSLOGDT</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<commentInRDBMS>last updated at</commentInRDBMS>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<defaultValue>localtimestamp</defaultValue>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="RM_COMM" id="DB63187D-4EC9-5312-82F7-F3D8AF639468">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>DAYSUM</sourceObjSchema>
+<sourceObjName>RM_COMM</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<commentInRDBMS>Agent and/or referer commission payable from the nett rate</commentInRDBMS>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<defaultValue>0</defaultValue>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9911E11C-DB69-8DD3-59DB-4D98BFD9EDD8" name="DAY_PK">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>OJT</sourceObjSchema>
+<sourceObjName>DAY_PK</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<schemaObject>DD61CB21-E947-9CB5-F4CC-EB516A951FB9</schemaObject>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="675E46CF-6391-469B-264C-19DC428E1BDD"/>
+<colUsage columnID="CC87DD19-0B82-F7AC-89E0-E574375FF39F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

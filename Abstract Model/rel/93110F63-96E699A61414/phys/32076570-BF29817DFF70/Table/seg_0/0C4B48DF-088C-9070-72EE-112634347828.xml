@@ -1,0 +1,140 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="MNT" directorySegmentName="seg_0" id="0C4B48DF-088C-9070-72EE-112634347828">
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<schemaObject>DD61CB21-E947-9CB5-F4CC-EB516A951FB9</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>40AB11D9-A281-8325-623D-BDF909695F27</segment>
+<tableSpace>USERS</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="MAINTENANCE_PK" id="6AF41B02-181E-8385-2379-C0F496447DC0">
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<schemaObject>DD61CB21-E947-9CB5-F4CC-EB516A951FB9</schemaObject>
+<segment>40AB11D9-A281-8325-623D-BDF909695F27</segment>
+<tableSpace>USERS</tableSpace>
+</IndexProxy>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="MAINTENANCE_VIL_FKX" id="C9B8B405-7E46-4FBD-BE62-1D44B8F31DA3">
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<schemaObject>DD61CB21-E947-9CB5-F4CC-EB516A951FB9</schemaObject>
+<segment>40AB11D9-A281-8325-623D-BDF909695F27</segment>
+<tableSpace>USERS</tableSpace>
+</IndexProxy>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="MAINTENANCE_STF_FKX" id="DA9D82BE-A029-7420-09AA-19AD8730E1FF">
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<schemaObject>DD61CB21-E947-9CB5-F4CC-EB516A951FB9</schemaObject>
+<segment>40AB11D9-A281-8325-623D-BDF909695F27</segment>
+<tableSpace>USERS</tableSpace>
+</IndexProxy>
+</indexProxies>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="REPBYIS" id="052026CD-BA90-B883-EF06-27E37FDEE970">
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="AUTHORISED" id="1352D30D-783F-4374-AB39-DAD9098B003B">
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CATEGORY" id="18DBB93E-55B6-3BB3-A3EA-3625846289C8">
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="REPDATE" id="1AB7E130-E834-F6DF-D4F6-F530385B2AE0">
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="NOTES" id="2CF2C67F-6780-E9D0-7AA9-6A9A64F9143D">
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="VILLAID" id="5B3C36F1-2E6C-8F0C-9271-E89254D5BDA6">
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="SECTOR" id="60E2E69E-6235-4408-2C0D-A5AA97B49A04">
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="COST" id="78F5A9F0-D509-EE0E-266D-1BA76C02DC0D">
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="OARSLOGDT" id="8A1B74E4-66F1-3868-BEB8-5EFBC3A01F74">
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="COMPLETED" id="9DE76F2C-3A6E-9DE3-2C71-BDC47185600A">
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CURR" id="A009BD8D-CC49-2E9A-2524-3B303C0A1E1F">
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="WHENIS" id="A23100EE-53BA-30A0-C3D6-C3A7F77E0E94">
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CAUSE" id="AF6AA3CD-BDB3-863F-566B-4C70857E7EB6">
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="VERIFIED" id="AF9870FD-8203-5157-2705-AFBA481945D4">
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="WHATIS" id="D8DAA4CA-47B8-6253-CCB1-EAD083889D98">
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ID" id="E7FB6978-1491-325A-979D-9BBADE6469FD">
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="PRIORITY" id="F4C48F7F-736F-01AF-5000-2694B018DF83">
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="WHOIS" id="F4DA0424-B063-BFB5-99D5-66D7D2247AA2">
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="REPBY" id="FC28CC86-387A-6EB4-D2E6-0EBC91A83594">
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="BILLTO" id="FFDDB94C-D17E-9BD3-726C-5399AC88FDD9">
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+</TableProxyOraclev11g>

@@ -1,0 +1,512 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="44E6A206-AEEA-FDB7-1B60-27DF42312F27" name="INQ">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>OJT</sourceObjSchema>
+<sourceObjName>INQ</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:29 UTC</createdTime>
+<commentInRDBMS>Web Site Reservation Inquiries</commentInRDBMS>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<schemaObject>DD61CB21-E947-9CB5-F4CC-EB516A951FB9</schemaObject>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="9E5B669E-470E-C53C-AEFC-7495860E2527">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>INQ</sourceObjSchema>
+<sourceObjName>ID</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<commentInRDBMS>from INQ_SEQ</commentInRDBMS>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="GSTID" id="38244FEF-0084-A1FE-31FC-49A4D1933122">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>INQ</sourceObjSchema>
+<sourceObjName>GSTID</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<commentInRDBMS>pointer to GST record</commentInRDBMS>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="AGTID" id="5BE5C35E-E0A8-3260-D813-35371368AD54">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>INQ</sourceObjSchema>
+<sourceObjName>AGTID</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<commentInRDBMS>optional</commentInRDBMS>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="RESID" id="180123B6-E85F-6E63-B6BE-8AFF54F8F2F4">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>INQ</sourceObjSchema>
+<sourceObjName>RESID</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<commentInRDBMS>pointer to RES, if a booking was generated from this web inquiry record</commentInRDBMS>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="VILID" id="7CD80841-662E-093E-B9E3-D2B8F94C5E2B">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>INQ</sourceObjSchema>
+<sourceObjName>VILID</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<commentInRDBMS>ID OF SPECIFIC VILLA IF PROVIDED.  Categories have IDs &gt; 1000</commentInRDBMS>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PDID" id="C5C5CA9A-DCBE-0064-7BBB-C5E6CAF9C7BA">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>INQ</sourceObjSchema>
+<sourceObjName>PDID</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<commentInRDBMS>pointer to PD, if not null. usually refers to a temorary promotion</commentInRDBMS>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ARRIVED" id="7112A59B-C33D-1574-2D09-66DA3012203F">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>INQ</sourceObjSchema>
+<sourceObjName>ARRIVED</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<commentInRDBMS>ARRIVAL DATE, IF EXACT DATE SPECIFIED</commentInRDBMS>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DEPARTD" id="633FAC05-750B-EFB2-5229-0D9110EFE512">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>INQ</sourceObjSchema>
+<sourceObjName>DEPARTD</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TRATE" id="DB288E76-98C8-1725-8F1E-834149BA2944">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>INQ</sourceObjSchema>
+<sourceObjName>TRATE</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ADULTS" id="2669DB75-9F94-EF39-B2BE-3DB8BD0F6E59">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>INQ</sourceObjSchema>
+<sourceObjName>ADULTS</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<commentInRDBMS>ADULT GUESTS</commentInRDBMS>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CHILDREN" id="275E60AA-F081-7422-6CDD-36768AE30AD1">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>INQ</sourceObjSchema>
+<sourceObjName>CHILDREN</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<commentInRDBMS>KIDS</commentInRDBMS>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="INFANTS" id="C15C4694-DAE8-215D-360D-AC988B05E2F8">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>INQ</sourceObjSchema>
+<sourceObjName>INFANTS</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<commentInRDBMS>KIDS UNDER 2</commentInRDBMS>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TRANSPORT" id="F70528C7-3A85-4FB1-C511-46885AA883D1">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>INQ</sourceObjSchema>
+<sourceObjName>TRANSPORT</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<commentInRDBMS>TRANSPORT ARRANGEMENTS</commentInRDBMS>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DIVING" id="B25C6400-FA55-6074-DF11-F21C395DE7C7">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>INQ</sourceObjSchema>
+<sourceObjName>DIVING</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<commentInRDBMS>DIVING PLANS</commentInRDBMS>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="BEDROOMS" id="838E309C-8C57-04DD-082E-995FFF9047C1">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>INQ</sourceObjSchema>
+<sourceObjName>BEDROOMS</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<commentInRDBMS>TOTAL BEDROOMS REQUIRED - not used</commentInRDBMS>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="OPTIONS" id="5695D957-3A8B-6F07-0DC3-7BBC9462E99D">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>INQ</sourceObjSchema>
+<sourceObjName>OPTIONS</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MULTIVILLA" id="FF6E73AE-1F75-B4E8-9935-80E6A2427C9F">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>INQ</sourceObjSchema>
+<sourceObjName>MULTIVILLA</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOTES" id="44A1F5D4-E487-FD6C-6CF6-ADEDD089E37E">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>INQ</sourceObjSchema>
+<sourceObjName>NOTES</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<commentInRDBMS>FREE FORM TEXT</commentInRDBMS>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1000 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NEW_GUEST" id="B5CB0D13-9C32-402A-67F4-835E37FD3310">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>INQ</sourceObjSchema>
+<sourceObjName>NEW_GUEST</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<commentInRDBMS>Y if a new GST record was created by this inquiry</commentInRDBMS>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="AGENTCODE" id="80CA2B98-BB7A-A632-F419-2CF29BE6830E">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>INQ</sourceObjSchema>
+<sourceObjName>AGENTCODE</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<commentInRDBMS>IATA code of registered agent </commentInRDBMS>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="WHOIS" id="BC616176-787B-20BB-34A5-C7D350C2D568">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>INQ</sourceObjSchema>
+<sourceObjName>WHOIS</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="COMPLETED" id="3FD6DED4-AD9E-9069-B7A9-0D51D1D3EA95">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>INQ</sourceObjSchema>
+<sourceObjName>COMPLETED</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="OARSLOGDT" id="C6051E65-A8BF-F1D1-2DA7-3695E6E7C158">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>INQ</sourceObjSchema>
+<sourceObjName>OARSLOGDT</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="BOOK" id="4FC1A8BE-1623-8440-4C5C-63CB5B11344F">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>INQ</sourceObjSchema>
+<sourceObjName>BOOK</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<commentInRDBMS>Y=Booking, N=Inquiry, I=Unstructured Inquiry, P=Payment(deprecated)</commentInRDBMS>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DEPOSIT" id="06E729B5-8455-F66F-B96B-592B221C996A">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>INQ</sourceObjSchema>
+<sourceObjName>DEPOSIT</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<commentInRDBMS>If this inquiry was generated as a reservation with credit card details, this field contains the amount to be billed to the supplied credit card</commentInRDBMS>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<defaultValue>0</defaultValue>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PAID" id="FF0C27B0-DD73-D1E3-AE90-4E6A5CFF121A">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>INQ</sourceObjSchema>
+<sourceObjName>PAID</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="OUTCOME" id="057716CC-F9E1-9006-8309-7BFADFD94CBE">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>INQ</sourceObjSchema>
+<sourceObjName>OUTCOME</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<commentInRDBMS>Lookup type m</commentInRDBMS>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CREATEDT" id="9B64F063-7026-8C4B-45C6-AFB81BE41EC5">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>INQ</sourceObjSchema>
+<sourceObjName>CREATEDT</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CREATEBY" id="30E86CA6-DC80-CD64-5B64-499B4A1A67ED">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>INQ</sourceObjSchema>
+<sourceObjName>CREATEBY</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="UPDATEDT" id="90EE1FDA-801C-8EF3-4252-45D4FC009741">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>INQ</sourceObjSchema>
+<sourceObjName>UPDATEDT</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="UPDATEBY" id="BA50CE35-F0CD-D894-9F1C-A746645533CD">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>INQ</sourceObjSchema>
+<sourceObjName>UPDATEBY</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="19BFDC55-7B56-3A0A-6F9E-AE5C08A7E3C3" name="INQ_RES_IDX">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>OJT</sourceObjSchema>
+<sourceObjName>INQ_RES_IDX</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<schemaObject>DD61CB21-E947-9CB5-F4CC-EB516A951FB9</schemaObject>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="180123B6-E85F-6E63-B6BE-8AFF54F8F2F4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="16B4374F-AEAE-8EC5-602D-886A546D85E2" name="INQ_PK">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>OJT</sourceObjSchema>
+<sourceObjName>INQ_PK</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<schemaObject>DD61CB21-E947-9CB5-F4CC-EB516A951FB9</schemaObject>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9E5B669E-470E-C53C-AEFC-7495860E2527"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8DA3CE69-44EA-77F3-735C-9180DFCE8E9F" name="INQ_GST_IDX">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>OJT</sourceObjSchema>
+<sourceObjName>INQ_GST_IDX</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<schemaObject>DD61CB21-E947-9CB5-F4CC-EB516A951FB9</schemaObject>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="38244FEF-0084-A1FE-31FC-49A4D1933122"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,153 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="475C3C4E-0B9A-0FE9-8FA1-A964FFE459CF" name="MV_CAPABILITIES_TABLE">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>OJT</sourceObjSchema>
+<sourceObjName>MV_CAPABILITIES_TABLE</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<schemaObject>DD61CB21-E947-9CB5-F4CC-EB516A951FB9</schemaObject>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="STATEMENT_ID" id="7BE68CF9-2B60-1695-3120-58A21F8E5833">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>MV_CAPABILITIES_TABLE</sourceObjSchema>
+<sourceObjName>STATEMENT_ID</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MVOWNER" id="F6DD2767-2448-F345-33F9-85401B5F15BF">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>MV_CAPABILITIES_TABLE</sourceObjSchema>
+<sourceObjName>MVOWNER</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MVNAME" id="C668B68D-8989-AE6F-8C85-90D29223F8D9">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>MV_CAPABILITIES_TABLE</sourceObjSchema>
+<sourceObjName>MVNAME</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CAPABILITY_NAME" id="EC37E786-F751-D6EA-B009-5373E059A14A">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>MV_CAPABILITIES_TABLE</sourceObjSchema>
+<sourceObjName>CAPABILITY_NAME</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="POSSIBLE" id="E99D7C9E-0DCB-D12E-6583-60CF09CD12C3">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>MV_CAPABILITIES_TABLE</sourceObjSchema>
+<sourceObjName>POSSIBLE</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="RELATED_TEXT" id="80EFF81A-C09C-AA3D-A54A-574F04C6D32F">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>MV_CAPABILITIES_TABLE</sourceObjSchema>
+<sourceObjName>RELATED_TEXT</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>2000 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="RELATED_NUM" id="5D229BDA-09B4-2B9F-AFF2-504ADE336FBE">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>MV_CAPABILITIES_TABLE</sourceObjSchema>
+<sourceObjName>RELATED_NUM</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MSGNO" id="1B76CFDB-89C8-FDF3-8E3C-E0336B81D022">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>MV_CAPABILITIES_TABLE</sourceObjSchema>
+<sourceObjName>MSGNO</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MSGTXT" id="7292F26C-6F91-BEE1-E3F8-B583794388B6">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>MV_CAPABILITIES_TABLE</sourceObjSchema>
+<sourceObjName>MSGTXT</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>2000 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SEQ" id="EA0FED9E-FC67-1C58-A621-C0F735156D63">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>MV_CAPABILITIES_TABLE</sourceObjSchema>
+<sourceObjName>SEQ</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+</Table>

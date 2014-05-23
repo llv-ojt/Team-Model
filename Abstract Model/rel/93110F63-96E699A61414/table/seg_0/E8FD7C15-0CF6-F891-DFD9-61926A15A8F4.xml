@@ -1,0 +1,819 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E8FD7C15-0CF6-F891-DFD9-61926A15A8F4" name="GST">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>OJT</sourceObjSchema>
+<sourceObjName>GST</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:29 UTC</createdTime>
+<commentInRDBMS>Guest Table</commentInRDBMS>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<schemaObject>DD61CB21-E947-9CB5-F4CC-EB516A951FB9</schemaObject>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="DEC88281-72A0-6167-59E2-6650483E4007">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>GST</sourceObjSchema>
+<sourceObjName>ID</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FNAME" id="7CEA80D0-87F6-3139-7A9D-E1D4A351C715">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>GST</sourceObjSchema>
+<sourceObjName>FNAME</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LNAME" id="C43319E5-F46E-7778-242E-6DF7C8D43DDC">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>GST</sourceObjSchema>
+<sourceObjName>LNAME</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="EMAIL" id="1D3112E0-058E-7DFA-04F6-466DA2EBB7FA">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>GST</sourceObjSchema>
+<sourceObjName>EMAIL</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PHONE" id="40DC18AA-F7C6-E762-6764-29740701A6AE">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>GST</sourceObjSchema>
+<sourceObjName>PHONE</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="EMERGENCY" id="0EEE4F73-86DB-C3E9-5352-5E2C4D36D661">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>GST</sourceObjSchema>
+<sourceObjName>EMERGENCY</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PARTNERFNAME" id="782CFA31-47E7-4524-9097-268C2BE22B01">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>GST</sourceObjSchema>
+<sourceObjName>PARTNERFNAME</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PARTNERLNAME" id="E27F8738-FF1E-478F-7B2B-D6139375DC2A">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>GST</sourceObjSchema>
+<sourceObjName>PARTNERLNAME</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOTES" id="EB0BAFD3-B10D-4B9B-07DE-1634BC041AD7">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>GST</sourceObjSchema>
+<sourceObjName>NOTES</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>4000 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="BIRTHDAY" id="6DA9FDAA-F340-8B5E-D122-F8AFFBA29265">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>GST</sourceObjSchema>
+<sourceObjName>BIRTHDAY</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ADDRESS1" id="FD580D7F-E7E5-E88F-C145-6F6CA2E44133">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>GST</sourceObjSchema>
+<sourceObjName>ADDRESS1</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ADDRESS2" id="47D4E6EE-7104-821D-8CB4-CB3499812C81">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>GST</sourceObjSchema>
+<sourceObjName>ADDRESS2</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PASSPORT" id="4C33502A-1ECD-3E4C-DFEE-340A62398FC8">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>GST</sourceObjSchema>
+<sourceObjName>PASSPORT</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CREDITCARD" id="FE39BD84-1A9B-5F46-4EF6-B4AA31CDDF4B">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>GST</sourceObjSchema>
+<sourceObjName>CREDITCARD</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FULLNAME" id="FF16B017-C103-4C64-91B9-E019AF007423">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>GST</sourceObjSchema>
+<sourceObjName>FULLNAME</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>51 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="COUNTRY" id="A77B4F13-1191-CDFF-BFD7-CB06EB2DC316">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>GST</sourceObjSchema>
+<sourceObjName>COUNTRY</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<defaultValue>0</defaultValue>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NATIONALITY" id="CA186DBD-5ADE-B971-7504-C0366BFEE139">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>GST</sourceObjSchema>
+<sourceObjName>NATIONALITY</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<defaultValue>0</defaultValue>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TYPER" id="7AD4AF95-037F-7B77-26F7-7C98D4513ACF">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>GST</sourceObjSchema>
+<sourceObjName>TYPER</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DISCOUNT" id="2C9C0596-4D11-371C-47DE-8346D737B5D1">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>GST</sourceObjSchema>
+<sourceObjName>DISCOUNT</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<defaultValue>0</defaultValue>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DEPOSITHELD" id="85B3D20C-1D24-4C26-391A-A60DE621F66D">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>GST</sourceObjSchema>
+<sourceObjName>DEPOSITHELD</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<defaultValue>0</defaultValue>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DEPOSITCURR" id="3D75B090-5B2E-9D39-971A-E128DC446E2C">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>GST</sourceObjSchema>
+<sourceObjName>DEPOSITCURR</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>3 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CANCELLED" id="B95A86D1-9DA3-8AB3-BAE5-2EBF4C486BB7">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>GST</sourceObjSchema>
+<sourceObjName>CANCELLED</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOSHOW" id="376CD004-C958-8F50-532C-AE8696E13A07">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>GST</sourceObjSchema>
+<sourceObjName>NOSHOW</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NUMSTAYS" id="DD88CDA3-BCC5-A0A4-7610-90DC49DD18FD">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>GST</sourceObjSchema>
+<sourceObjName>NUMSTAYS</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<commentInRDBMS>Number of nights this guest has stayed;  updated upon checkout</commentInRDBMS>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<defaultValue>0</defaultValue>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="OWNVILLA" id="25D86ECF-E650-F812-59F0-E40469B00E97">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>GST</sourceObjSchema>
+<sourceObjName>OWNVILLA</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<commentInRDBMS>If guest own or part-owns a villa, this is the id</commentInRDBMS>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<defaultValue>0</defaultValue>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CHECKEDIN" id="C5BA5C16-43F9-14CF-C334-623522363E33">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>GST</sourceObjSchema>
+<sourceObjName>CHECKEDIN</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<commentInRDBMS>Y when checked in, otherwise null</commentInRDBMS>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="AMOUNTDUE_USD" id="ED12DB5A-9536-1C4C-A23C-AC807F12756C">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>GST</sourceObjSchema>
+<sourceObjName>AMOUNTDUE_USD</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<commentInRDBMS>updated by account preparation, cleared by account settlement (ie Final Payment by guest)</commentInRDBMS>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="AMOUNTDUE_PHP" id="D29222AC-340E-23CB-C724-EEF95E6A61DF">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>GST</sourceObjSchema>
+<sourceObjName>AMOUNTDUE_PHP</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<commentInRDBMS>updated by account preparation, cleared by account settlement (ie Final Payment by guest)</commentInRDBMS>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="STATEMENT" id="C7CBC1CC-E477-07F8-56AF-D739F88535BE">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>GST</sourceObjSchema>
+<sourceObjName>STATEMENT</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<commentInRDBMS>Set to N by Checkin.Set to Y by Account Statement Preparation.Cannot checkout if not set to Y.</commentInRDBMS>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="GROUPID" id="CA2672BA-4772-8FF4-2B31-7E9F862C8EEF">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>GST</sourceObjSchema>
+<sourceObjName>GROUPID</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<commentInRDBMS>Contains null unless this guest belongs to a group, in which case this is the group ID</commentInRDBMS>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="AGENTID" id="D366FA64-7CFC-AE28-DB38-DB756E412DE9">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>GST</sourceObjSchema>
+<sourceObjName>AGENTID</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<commentInRDBMS>If this guest &quot;belongs&quot; to an agent, this points to the agentid, otherwise it is null</commentInRDBMS>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CREATEDATE" id="22BBE3B6-20F1-C824-FCDA-22132BE5A6F8">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>GST</sourceObjSchema>
+<sourceObjName>CREATEDATE</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CREATEDBY" id="2CE70680-D8E7-469F-F341-1499E3CE0E6F">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>GST</sourceObjSchema>
+<sourceObjName>CREATEDBY</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PASSWORD" id="5A672557-B298-DAE2-8861-2BFC72AFCF6C">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>GST</sourceObjSchema>
+<sourceObjName>PASSWORD</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>12 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MAILINGLIST" id="B96A6689-E150-4639-4E2A-0815FE18634D">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>GST</sourceObjSchema>
+<sourceObjName>MAILINGLIST</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CARDNAME" id="A9073A33-61E6-F3F4-6399-85E1F229C49F">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>GST</sourceObjSchema>
+<sourceObjName>CARDNAME</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CARDNUMBER" id="3D01ADA1-7F41-C5FF-B1D6-472B857ADC87">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>GST</sourceObjSchema>
+<sourceObjName>CARDNUMBER</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CARDEXPIRY_MM" id="E6F20224-1211-FFEF-D3E0-85FE2071F290">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>GST</sourceObjSchema>
+<sourceObjName>CARDEXPIRY_MM</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CARDEXPIRY_YY" id="1D2F067C-5BCB-CB5C-E92E-FF08B222C8FE">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>GST</sourceObjSchema>
+<sourceObjName>CARDEXPIRY_YY</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CARD_SECURITYCODE" id="80E4036F-1595-1103-46F3-F27DCCB0FC79">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>GST</sourceObjSchema>
+<sourceObjName>CARD_SECURITYCODE</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CARDTYPE" id="A5B974B3-7F98-21C3-DBF3-C8889790FE7C">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>GST</sourceObjSchema>
+<sourceObjName>CARDTYPE</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="VER" id="C85F883A-0FD1-5288-69C5-1407BBAE5CA4">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>GST</sourceObjSchema>
+<sourceObjName>VER</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="VAT" id="92CF5CCF-7313-A931-68B1-21175A504B85">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>GST</sourceObjSchema>
+<sourceObjName>VAT</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<commentInRDBMS>V=Vatable, N=Not Vatable (diplomatic exemption)</commentInRDBMS>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LCURRDEP" id="D3C7F437-F7F7-9090-1CEC-550DDB86DF16">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>GST</sourceObjSchema>
+<sourceObjName>LCURRDEP</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<defaultValue>0</defaultValue>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ICURRDEP" id="0F628E52-B846-8ADE-3F03-08F450C66CD4">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>GST</sourceObjSchema>
+<sourceObjName>ICURRDEP</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<defaultValue>0</defaultValue>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ALTERDT" id="339194C8-5ADE-B532-AB14-0DAC57FCCA07">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>GST</sourceObjSchema>
+<sourceObjName>ALTERDT</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ALTERBY" id="D0DD1B08-36C6-CC52-5390-8FAA549508D7">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>GST</sourceObjSchema>
+<sourceObjName>ALTERBY</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ENTRYDT" id="21588B87-2029-24BD-1A53-15ABDAC3E1D8">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>GST</sourceObjSchema>
+<sourceObjName>ENTRYDT</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ENTRYBY" id="D4B5F52F-EDBA-605F-35AA-2437B13B1F70">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>GST</sourceObjSchema>
+<sourceObjName>ENTRYBY</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FDISC" id="9426E8FB-FEF5-84A4-0AD4-49DE742112E6">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>GST</sourceObjSchema>
+<sourceObjName>FDISC</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<defaultValue>0</defaultValue>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="BDISC" id="818C57AB-948B-2E7F-2E8F-FF3297D618B9">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>GST</sourceObjSchema>
+<sourceObjName>BDISC</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<defaultValue>0</defaultValue>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="OARSLOGDT" id="D588CED5-1182-C328-1602-15FF1872509D">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>GST</sourceObjSchema>
+<sourceObjName>OARSLOGDT</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="901D3551-0BD0-51AB-699B-53A36D686052" name="GST_PK">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>OJT</sourceObjSchema>
+<sourceObjName>GST_PK</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:31 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DEC88281-72A0-6167-59E2-6650483E4007"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1E2FAB1E-06FB-A2A4-F8C6-F0433139FA9D" name="GST_FULLNAME_IDX">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>OJT</sourceObjSchema>
+<sourceObjName>GST_FULLNAME_IDX</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<schemaObject>DD61CB21-E947-9CB5-F4CC-EB516A951FB9</schemaObject>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FF16B017-C103-4C64-91B9-E019AF007423"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="20F51CDE-AE70-E581-7EB3-EF504A0736C5" name="GST_PK">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>OJT</sourceObjSchema>
+<sourceObjName>GST_PK</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<schemaObject>DD61CB21-E947-9CB5-F4CC-EB516A951FB9</schemaObject>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DEC88281-72A0-6167-59E2-6650483E4007"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8C50CE30-6010-40D9-A9B7-9DEE84B37BAA" name="GST_EMAIL_FIDX">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>OJT</sourceObjSchema>
+<sourceObjName>GST_EMAIL_FIDX</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<indexExpression>LOWER(&quot;EMAIL&quot;)</indexExpression>
+<schemaObject>DD61CB21-E947-9CB5-F4CC-EB516A951FB9</schemaObject>
+<isSurrogateKey>false</isSurrogateKey>
+</ind_PK_UK>
+</indexes>
+</Table>

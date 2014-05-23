@@ -1,0 +1,644 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="WWV_FLOWS_BKP" directorySegmentName="seg_0" id="5B727412-D1DF-3A69-C15F-F40046248EAF">
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<schemaObject>DD61CB21-E947-9CB5-F4CC-EB516A951FB9</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>40AB11D9-A281-8325-623D-BDF909695F27</segment>
+<tableSpace>USERS</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="TIMESTAMP_TZ_FORMAT" id="03D2E5B1-D147-AF42-0B34-5E452E2713E5">
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CREATED_BY" id="04B53C14-4C6E-A296-A311-6B7463E48CE3">
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="FLOW_STATUS" id="05A927EF-161A-6CE2-C7B3-FE77DB607C1A">
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="DEFAULT_FORM_TEMPLATE" id="06BBD75B-2116-03DC-D318-7BEABEDB8046">
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="DATE_TIME_FORMAT" id="06D4EBD8-FFF4-E246-0195-D8BBB503C5FB">
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="FLOW_IMAGE_PREFIX" id="074201E2-BC82-83D7-5FEF-8887811BADBA">
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="AUTHENTICATION_ID" id="07570C26-5903-5BAB-EB5A-7D34291C253F">
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ALLOW_FEEDBACK_YN" id="07C0E8B8-0DB3-0166-F89A-F85114E0C6F0">
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="DEFAULT_REPORTR_TEMPLATE" id="082A7645-D7AD-AA6D-614A-F3054E36F444">
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="SUBSTITUTION_STRING_18" id="09254AE0-FEB8-8322-F844-7CF7A77D3B6E">
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="LAST_UPDATED_BY" id="0A58C543-485A-4430-C6FC-B1F9D2B0114F">
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="AUTO_TIME_ZONE" id="0B9B919E-E6C5-8ECB-232C-B6A433FAB022">
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="VPD" id="0CCE6F22-6502-4766-DE51-0CB08DBCED50">
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="SUBSTITUTION_VALUE_06" id="0D5F9CF4-63A2-D27D-22C0-C3D2F36D43C9">
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="BROWSER_CACHE" id="0E04C43B-A729-AA6B-C1A7-E9AF043F97D2">
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="SUBSTITUTION_VALUE_18" id="0EDF17A9-06C6-D2E1-A766-FD9D75740B2E">
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="FLOW_UNAVAILABLE_TEXT" id="12114E7D-146E-902C-652C-80E3C9B7CB1B">
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="DEFAULT_REGION_TEMPLATE" id="186B410C-4176-B730-91C0-5B0E1D4DB957">
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="SUBSTITUTION_VALUE_02" id="19CD7A65-C87E-710F-C699-FD15B623BBCE">
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="SUBSTITUTION_VALUE_13" id="1D03C6FE-69A9-36B8-E089-427BE6BA55B6">
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="SUBSTITUTION_STRING_05" id="21CED685-DE45-F939-D326-4A52CB88B6EC">
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="LOGO_IMAGE_ATTRIBUTES" id="223A2388-8738-7326-1AEB-54293C0154B5">
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="DATE_FORMAT" id="260F0177-E1E3-451B-7251-0A384EA35A71">
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="MAX_SESSION_IDLE_SEC" id="282698B1-A61E-61A4-E061-30651B75CED7">
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CHECKSUM_SALT" id="29E22B58-EC1E-498D-ACE1-026E84BC1FA5">
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="AUTHENTICATION" id="2DC234BF-8796-98EE-4E18-AF1AA8E7CFE6">
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="DEFAULT_CALENDAR_TEMPLATE" id="3249F14E-5394-EBDE-454B-5853952068D3">
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="SUBSTITUTION_STRING_15" id="3390CC61-79EC-8DDF-A9FE-7EA46B2DB479">
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="SUBSTITUTION_STRING_17" id="3415FA78-DEB1-2D53-4A58-AAA33EADAE48">
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="SUBSTITUTION_STRING_12" id="34805F63-69CF-65DB-C9EE-353AC530B1AA">
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="DEFAULT_MENU_TEMPLATE" id="36BE88F0-0099-0C51-9980-915F979F042C">
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="SUBSTITUTION_STRING_20" id="38191F8C-FDB8-CA2A-A0E1-5441FEEACF1E">
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="SUBSTITUTION_STRING_16" id="39489017-32AE-1EF6-F385-B03DDB7FDDD9">
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="DEFAULT_LABEL_TEMPLATE" id="3B5370D4-D6FE-224F-7AA2-965EE51D88CE">
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="SUBSTITUTION_STRING_06" id="3D90A2B4-EDD2-D78A-8A19-E2E328C88D49">
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CUSTOM_AUTH_LOGIN_URL" id="3E4397C9-F696-ED9F-E541-736EB14B6426">
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="PAGE_PROTECTION_ENABLED_Y_N" id="40B742DB-810F-53C7-4138-089ADD6B646D">
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="DISPLAY_ID" id="42D45B73-7C1F-9491-97AC-D29FEC49BA56">
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="SUBSTITUTION_STRING_14" id="4816A443-9592-BEF2-7935-6FFF7381A997">
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="LOGO_IMAGE" id="483A5DE5-51E7-9F28-6C8C-358886D06C26">
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ON_MAX_SESSION_TIMEOUT_URL" id="4975E4B0-1AEE-58D5-DED5-5B02B9C1D9F3">
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="COMPATIBILITY_MODE" id="49B9D5AB-EB6E-6EE4-5075-F92C43473E19">
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="SUBSTITUTION_VALUE_08" id="4A8164E0-CC0B-EDCF-EE7C-F7086F657134">
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="BOX_WIDTH" id="4B9FDFA7-BE81-C0BF-B27C-74804B0C0ECE">
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="DEFAULT_ERROR_DISPLAY_LOCATION" id="4DE2DBF3-B28E-B7DB-FF5E-EF360A8E1E7E">
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="PUBLISH_YN" id="4DFF836C-EC3A-AB2F-B9D0-BB235CE7283D">
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="SUBSTITUTION_STRING_08" id="4E55AED4-A502-09F1-4B81-F980468FC499">
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="SUBSTITUTION_STRING_02" id="4F368593-C874-BF1C-AE78-26CF44F18669">
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="PUBLIC_USER" id="4F4B9612-17F7-C419-F940-42EBB4A74C29">
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="SUBSTITUTION_VALUE_19" id="52D9BD47-BEA1-453E-D3B8-9DFBDEA023F9">
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="DEFAULT_IRR_TEMPLATE" id="53687962-95FF-283E-393B-6A020A7B2070">
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="SUBSTITUTION_STRING_09" id="541C59A6-7DA7-7742-91C4-1185CA0E8964">
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="LOGIN_URL" id="55F7DCEB-C07E-C312-E68A-03CCC3C68B76">
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="DEFAULT_PAGE_TEMPLATE" id="5B70A443-7A50-C218-CF5E-2A416B377E62">
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="SUBSTITUTION_VALUE_05" id="5C39A6DF-D9F2-0A1F-5B89-C80CA78159DB">
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="SUBSTITUTION_VALUE_17" id="5EF0D733-06A3-2D9B-3D0A-42B7CCD98030">
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="SECURITY_GROUP_ID" id="5FB07F27-D363-5D27-F877-B7024590E4C0">
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="SUBSTITUTION_STRING_19" id="69CE1B35-CA6C-4BCE-3465-474E93D2B4F8">
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="GROUP_ID" id="6AEA4E2E-B5E5-7FAA-F49D-9E773F0D3AE6">
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="BUILD_STATUS" id="6B04BFCD-5E90-0213-4B45-4B8D23117B8D">
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CUSTOM_AUTHENTICATION_PAGE" id="6C1D275A-19CF-9ED2-223C-BA88D933814C">
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="SUBSTITUTION_VALUE_12" id="6E65D5B4-7CEE-A8BE-50D9-53585E19F48B">
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="SUBSTITUTION_STRING_03" id="6EAE4540-F47E-8516-839B-8289E22A6A7C">
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ERROR_TEMPLATE" id="6F3124A1-C31B-06A3-E6C0-DC1793353062">
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="NAME" id="73615B8F-59DB-72AD-5C3D-17C6430BB746">
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="SUBSTITUTION_VALUE_10" id="744EED2D-5808-16E7-05CA-D4F312880720">
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="SUBSTITUTION_STRING_10" id="7451787A-1402-54D3-46EA-281DF4C0A443">
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="LOGOUT_URL" id="75B3A890-DE20-5AD9-9551-7A2D062E6EB0">
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="MEDIA_TYPE" id="784D3616-8EC7-09DB-D464-1C4D44F7D56D">
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CUSTOM_AUTHENTICATION_PROCESS" id="7947481A-A2CC-BDDD-B715-8694C8487042">
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="SUBSTITUTION_STRING_07" id="7B07ADB2-9BC8-6174-6E21-0592A3DF0A31">
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="SUBSTITUTION_STRING_01" id="7C6282B7-D8BF-3F5B-3424-DE5B02A4CE2A">
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="APPLICATION_TAB_SET" id="7CF09623-80C2-3DE5-A0BA-125F2749BE56">
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="TIMESTAMP_FORMAT" id="7D4C0EE6-84F1-6AFB-FF7F-3C67F497A23F">
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="DEFAULT_LIST_TEMPLATE" id="8033E5CC-FDCE-9ADB-B7DB-705DFF0F2D41">
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="DEFAULT_CHART_TEMPLATE" id="81BC556A-F496-A798-89ED-818BFB5041B4">
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="DEFAULT_MENUR_TEMPLATE" id="81E8B605-CA20-37F8-B9B3-8129179AA55F">
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="SUBSTITUTION_STRING_04" id="86B3E6A8-2060-6759-D626-EA9A257B7F75">
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="BROWSER_FRAME" id="8C196662-C041-FB22-F3AB-B8F0F89ED9FD">
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="SUBSTITUTION_VALUE_01" id="8D9DDCAA-C5F0-627F-C550-9033A29154C0">
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CREATED_ON" id="92CFA1AC-6F35-E3AC-4687-94B5E7D120F1">
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="GLOBAL_NOTIFICATION" id="95CC1BF5-E219-4889-625E-7943CCF0FF52">
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="MAX_SESSION_LENGTH_SEC" id="98521F94-4CB1-FD63-1383-70EBDE5C1E07">
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="RESTRICT_TO_USER_LIST" id="985E7604-3B56-FF87-08D9-03A3F8E86EB9">
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="SUBSTITUTION_VALUE_11" id="9A2FDB13-4156-9366-EF3A-9752BBF01444">
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="SUBSTITUTION_STRING_11" id="9AA5F9DB-EBF6-7473-07CE-360631B32C57">
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="SUBSTITUTION_STRING_13" id="A0DD4DC4-6127-4713-C9ED-B9963734360A">
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CSV_ENCODING" id="A2D0C54E-4112-4DFE-4FDA-2AE1C6FD7031">
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="VPD_TEARDOWN_CODE" id="A366C2EE-C219-4746-1CCB-420FF0FC284E">
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="OWNER" id="A46B00A2-9F0E-7A9D-6D1F-817657C30F43">
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="PROXY_SERVER" id="A4FB6C15-5B12-25D5-3395-7B61C2F44C24">
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="SUBSTITUTION_VALUE_09" id="A7CD880B-E876-C4AB-503A-E355F12D00AA">
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="SECURITY_SCHEME" id="AA47971B-9008-1BFF-83A0-83593C9B0359">
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="SUBSTITUTION_VALUE_07" id="AB2D54D9-E35F-E132-D391-4FF7E27E863D">
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="SUBSTITUTION_VALUE_03" id="AF127E8C-20C6-238E-B4ED-3EBEF6E2F94F">
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="SUBSTITUTION_VALUE_20" id="AF7D7057-2E7F-8FDF-F4CE-793CC2706387">
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CHARSET" id="AFFFC312-CD1A-4640-3EA3-01FD09E67C6D">
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="DEFAULT_REPORT_TEMPLATE" id="B373A2A2-8934-A047-7429-6FC21713F9CC">
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CHECKSUM_SALT_LAST_RESET" id="B5233BDB-D669-592A-9D94-D5A8CD2B35C8">
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="DEFAULT_LISTR_TEMPLATE" id="B70AE25A-AD6A-8F06-F37A-D61895797CAA">
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="FLOW_LANGUAGE_DERIVED_FROM" id="BA8E4E4E-97CC-584A-8540-C93732E6D2E0">
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ID" id="BBFACF8A-B3D7-49F7-D14E-4BE4E6F363C8">
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="DEFAULT_TABFORM_TEMPLATE" id="BFF69694-320F-A724-DC47-3DA74BF4A441">
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="DBAUTH_URL_PREFIX" id="CAE7587D-E9AA-8C12-3712-E49C485C1142">
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="THEME_ID" id="CAF9638F-00D0-E0C2-E9B5-D3CDBA607C01">
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="APPLICATION_DESCRIPTION" id="CE2DBCE6-2F1D-D34D-E342-C638C6B3C69F">
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="WEBDB_LOGGING" id="CE374A17-CB0F-DEEA-0FAC-73F1B057F8F9">
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="APPLICATION_TYPE" id="CF808727-22F2-BABA-99E1-F4C065D53139">
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="SUBSTITUTION_VALUE_16" id="CFD6FCF0-12CB-736F-A971-BAC8B15F0A22">
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="DEFAULT_WIZARD_TEMPLATE" id="D0D4C718-8616-FEFD-C33E-2F4709122FA9">
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ON_MAX_IDLE_TIMEOUT_URL" id="D16DB3CA-DAF8-DF5E-FF7A-36B5C529EB22">
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="GLOBAL_ID" id="D1B5EB90-2ABA-48B3-1393-967EDB678159">
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="SUBSTITUTION_VALUE_15" id="D2A80D6A-446C-52C2-AC37-5789EF080211">
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="PRINTER_FRIENDLY_TEMPLATE" id="E08DA44A-A2B9-7FCF-F0A1-0DA1E376F273">
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="EXACT_SUBSTITUTIONS_ONLY" id="E24E7823-5EAD-43AF-0EC1-3ADDFAA11B11">
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="FLOW_LANGUAGE" id="E26960CA-9416-D1BA-71D7-B80026C7670D">
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="FLOW_VERSION" id="E80B7BC5-0025-E15D-0D31-EE9C37CB9644">
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="SUBSTITUTION_VALUE_14" id="F19D693D-DDA6-C29A-BA83-261FC178A519">
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="SUBSTITUTION_VALUE_04" id="F3B10120-942F-0036-106A-12BA62FBC4F7">
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="LAST_UPDATED_ON" id="F45C489D-A680-F29B-C8FA-99E146D658BA">
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="PUBLIC_URL_PREFIX" id="F6128207-F30C-6D7C-2059-7E006E88AD3D">
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ALIAS" id="F8CFACEF-67E3-AA30-BA7F-BCB86BD52C6E">
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="DEFAULT_BUTTON_TEMPLATE" id="F8DC6F9A-CF0F-E578-6CD0-6A347C52E865">
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="HOME_LINK" id="FAB91902-92E9-F99F-1F03-31D68CA5BDA1">
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ERROR_HANDLING_FUNCTION" id="FC64B038-07FC-DE0C-4F0C-6294953447F8">
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="REJOIN_EXISTING_SESSIONS" id="FFFED01F-3176-3DA0-BEF0-F586C9ED7941">
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+</TableProxyOraclev11g>

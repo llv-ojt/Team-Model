@@ -1,0 +1,333 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A9F66F02-7F5D-2623-2D72-05D14979AB21" name="PPAL">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>OJT</sourceObjSchema>
+<sourceObjName>PPAL</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<schemaObject>DD61CB21-E947-9CB5-F4CC-EB516A951FB9</schemaObject>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="TRANS_ID" id="BAF63471-EACA-7E3E-DF56-2E637D099BD6">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>PPAL</sourceObjSchema>
+<sourceObjName>TRANS_ID</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TRANS_BEGINDT" id="E815EC51-382A-6912-346E-85DCB99C8335">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>PPAL</sourceObjSchema>
+<sourceObjName>TRANS_BEGINDT</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<commentInRDBMS> load in trigger during insert</commentInRDBMS>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<defaultValue>NULL</defaultValue>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TRANS_STATUS" id="58EE8111-D3D8-631D-9642-530A7449EACF">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>PPAL</sourceObjSchema>
+<sourceObjName>TRANS_STATUS</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<commentInRDBMS>Three Main Status : PROCESSING, INVALID, VERIFIED</commentInRDBMS>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<defaultValue>&apos;PROCESSING&apos;</defaultValue>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SESSION_ID" id="955D1114-3AD9-1054-AAD7-B7C378391E4B">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>PPAL</sourceObjSchema>
+<sourceObjName>SESSION_ID</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>500 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TRANS_ERROR" id="6A06B539-F1CF-D9FE-18D1-33DF40AF52F2">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>PPAL</sourceObjSchema>
+<sourceObjName>TRANS_ERROR</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>4000 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="OARS_RESID" id="1376AAA3-6CA1-F0B1-B682-211528014ABB">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>PPAL</sourceObjSchema>
+<sourceObjName>OARS_RESID</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="OARS_USER_ID" id="F2DDBB12-3F1E-8F08-77D7-AF3B750BB3CB">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>PPAL</sourceObjSchema>
+<sourceObjName>OARS_USER_ID</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="OARS_PAY_TYPE" id="582BD0F7-E662-11D8-6273-6761AED22A19">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>PPAL</sourceObjSchema>
+<sourceObjName>OARS_PAY_TYPE</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<commentInRDBMS>W=website deposit, C=website checkout</commentInRDBMS>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1 BYTE</dataTypeSize>
+<defaultValue>&apos;W&apos;</defaultValue>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="OARS_VALUE" id="CAE28B0A-03E7-FF1A-D3D0-10F546B83297">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>PPAL</sourceObjSchema>
+<sourceObjName>OARS_VALUE</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="OARS_CURR" id="16D10645-00E8-1C6C-7216-F37B22A5AF66">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>PPAL</sourceObjSchema>
+<sourceObjName>OARS_CURR</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>3 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="OARS_PAYID" id="998C0353-8151-CD6E-3299-B53C0D3FC82F">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>PPAL</sourceObjSchema>
+<sourceObjName>OARS_PAYID</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TRANS_ENDDT" id="615C9A6A-F3C9-AF96-6885-D1C83685507F">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>PPAL</sourceObjSchema>
+<sourceObjName>TRANS_ENDDT</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<commentInRDBMS>localtimestamp loaded by trigger on update of trans_status</commentInRDBMS>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="APP_SCHEMA" id="3C0851F9-3CC6-6B40-3E23-69F8CEDC936B">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>PPAL</sourceObjSchema>
+<sourceObjName>APP_SCHEMA</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<commentInRDBMS>APEX_APPLICATION.G_FLOW_OWNER</commentInRDBMS>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="APP_ID" id="CB824695-EDE6-9419-CD94-64854CC25209">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>PPAL</sourceObjSchema>
+<sourceObjName>APP_ID</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="APP_PAGE_ID" id="F925E366-6D18-F6A2-773F-7934A91B9E52">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>PPAL</sourceObjSchema>
+<sourceObjName>APP_PAGE_ID</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="OARS_USER_IP" id="90E1EE36-533B-AFEE-7BE6-27A9D482C1C0">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>PPAL</sourceObjSchema>
+<sourceObjName>OARS_USER_IP</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="OARSLOGDT" id="23D7C7B0-951E-7B08-5A8D-4B686631E33C">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>PPAL</sourceObjSchema>
+<sourceObjName>OARSLOGDT</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<commentInRDBMS>timestamp loaded by trigger every time a record is updated</commentInRDBMS>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SERVERNAME" id="6A4178C2-561C-9A55-34CD-61B2FBF99884">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>PPAL</sourceObjSchema>
+<sourceObjName>SERVERNAME</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<commentInRDBMS>this will be server name i.e test.oarsonline.net</commentInRDBMS>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PAYPAL_TXN_ID" id="DB7C8336-1CC2-5A7E-7F16-59A8DF37B0D5">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>PPAL</sourceObjSchema>
+<sourceObjName>PAYPAL_TXN_ID</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<commentInRDBMS>This is a unique txn_id generated and returned by paypal as IPN. </commentInRDBMS>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PAYPAL_FEE" id="CA75692B-4BD1-0836-228E-076189D76E0E">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>PPAL</sourceObjSchema>
+<sourceObjName>PAYPAL_FEE</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<commentInRDBMS>This is a value of fess deducted by paypal and returned by paypal as IPN param = mc_fee</commentInRDBMS>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="OARS_GSTID" id="FC987DF0-4EAD-D9C6-579F-896D6D705B1E">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>PPAL</sourceObjSchema>
+<sourceObjName>OARS_GSTID</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<commentInRDBMS>content of the apex user id field</commentInRDBMS>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A604F4BD-2CC5-21D3-7C40-97F1EBC21EC7" name="PPAL_PK">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>OJT</sourceObjSchema>
+<sourceObjName>PPAL_PK</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<schemaObject>DD61CB21-E947-9CB5-F4CC-EB516A951FB9</schemaObject>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BAF63471-EACA-7E3E-DF56-2E637D099BD6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,115 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_1" id="B3CC5CCC-D072-A96B-79BA-C7F610B34B99" name="RBHPA">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>OJT</sourceObjSchema>
+<sourceObjName>RBHPA</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<commentInRDBMS>Room Category Agent Preallocations (Actual)</commentInRDBMS>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<schemaObject>DD61CB21-E947-9CB5-F4CC-EB516A951FB9</schemaObject>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="RMCID" id="FD7BB0C0-80E0-5E02-FA44-54F5FE12E176">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>RBHPA</sourceObjSchema>
+<sourceObjName>RMCID</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="BOOKD" id="7C7288EA-B4C4-A19E-2546-C94673D621AE">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>RBHPA</sourceObjSchema>
+<sourceObjName>BOOKD</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="AGTID" id="84800EFE-0829-C9E8-F6F4-D0174CAA3E7B">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>RBHPA</sourceObjSchema>
+<sourceObjName>AGTID</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NO_OF_ROOMS" id="0F7FD6BD-FD3D-769E-1DE1-F45A7FA924FB">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>RBHPA</sourceObjSchema>
+<sourceObjName>NO_OF_ROOMS</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9E02D2BC-C824-05F6-FF17-A89A49D04A2F" name="RBHPA_BOOKD_IDX">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>OJT</sourceObjSchema>
+<sourceObjName>RBHPA_BOOKD_IDX</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<schemaObject>DD61CB21-E947-9CB5-F4CC-EB516A951FB9</schemaObject>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7C7288EA-B4C4-A19E-2546-C94673D621AE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="864B49B0-D093-8ABB-F562-EA1F14C82F5D" name="RBHPA_AGT_IDX">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>OJT</sourceObjSchema>
+<sourceObjName>RBHPA_AGT_IDX</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<schemaObject>DD61CB21-E947-9CB5-F4CC-EB516A951FB9</schemaObject>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="84800EFE-0829-C9E8-F6F4-D0174CAA3E7B"/>
+<colUsage columnID="7C7288EA-B4C4-A19E-2546-C94673D621AE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E3954C28-0B19-70F8-812E-81699916AB3A" name="RBHPA_UK1">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>OJT</sourceObjSchema>
+<sourceObjName>RBHPA_UK1</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<schemaObject>DD61CB21-E947-9CB5-F4CC-EB516A951FB9</schemaObject>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FD7BB0C0-80E0-5E02-FA44-54F5FE12E176"/>
+<colUsage columnID="7C7288EA-B4C4-A19E-2546-C94673D621AE"/>
+<colUsage columnID="84800EFE-0829-C9E8-F6F4-D0174CAA3E7B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

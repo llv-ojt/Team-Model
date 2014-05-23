@@ -1,0 +1,37 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.relational.RelationalDesign>
+   <object objectType="SchemaObject" objectID="5170FFFE-79B4-4854-ABD2-D8E6F83DBCB4" name="LLV3" seqName="seg_0"/>
+   <object objectType="SchemaObject" objectID="85EC452A-AAC3-D4D3-81A7-C51E0B6ED4D9" name="OJT" seqName="seg_0"/>
+   <object objectType="Table" objectID="5677E40F-BD19-014D-2AC8-1C5D1EFA8EE8" name="CONFIG" seqName="seg_0"/>
+   <object objectType="Table" objectID="BB1F0ECD-8D37-B813-D3D2-A8132D6B9EED" name="LOOKUP" seqName="seg_0"/>
+   <object objectType="Table" objectID="5D907026-1DF9-328B-1883-CCBF1EA926CA" name="LU_RST_TIMES" seqName="seg_0"/>
+   <object objectType="Table" objectID="767C8A6D-D591-3561-4136-AB9B84D0C18E" name="PAYADV" seqName="seg_0"/>
+   <object objectType="Table" objectID="0A660D87-12E7-6B22-4172-4D6212DC9BE6" name="PAYBEN" seqName="seg_0"/>
+   <object objectType="Table" objectID="CF91922C-B16A-3B62-E7C7-01D50829BD2A" name="PAYCAL" seqName="seg_0"/>
+   <object objectType="Table" objectID="076BCDC1-D438-85EF-BFF9-0B00B6E3E59E" name="PAYCFG" seqName="seg_0"/>
+   <object objectType="Table" objectID="980726B3-5BD3-A0B8-2212-6F08B231319E" name="PAYHIS" seqName="seg_0"/>
+   <object objectType="Table" objectID="780FFB8B-0CD5-57EA-813F-92459652F4A9" name="PAYIN" seqName="seg_0"/>
+   <object objectType="Table" objectID="14F79755-5840-9EC8-B2BD-227E1A86CDA3" name="PAYROST" seqName="seg_0"/>
+   <object objectType="Table" objectID="2AEBA861-A94F-6CE9-6FC5-F72067E6E0B7" name="ROSTER" seqName="seg_0"/>
+   <object objectType="Table" objectID="9BCF7CA8-9FA2-D6EC-8990-5C24199DAEA5" name="RST" seqName="seg_0"/>
+   <object objectType="Table" objectID="1C05FF60-A868-E7A2-EF0B-824276345E93" name="STF" seqName="seg_0"/>
+   <object objectType="Table" objectID="0ABC5688-DE9B-F95E-F621-0B8F8A073520" name="STFBEN" seqName="seg_0"/>
+   <object objectType="Table" objectID="7FAD3176-398B-6206-9357-F5D4B8113693" name="STFPAY" seqName="seg_0"/>
+   <object objectType="Table" objectID="38D5A39C-144B-4941-9680-8B1F63635210" name="STFPAYBEN" seqName="seg_0"/>
+   <object objectType="Table" objectID="BE6B2BA9-A2D3-D1E8-7BDC-1C4BBB863B04" name="USR" seqName="seg_0"/>
+   <object objectType="Table" objectID="A43945ED-9C94-534E-8ED9-11369ABDB45C" name="WORKSTAT" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="4B32829D-C2EE-3AD2-479B-512901E6C526" name="WORKSTAT_PAYHIS_FK" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="63878B32-44BB-2052-F34A-715618517F3C" name="PAYADV_STF_FK" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="82810A2D-16E5-2A6A-3EC3-088FDB2212F8" name="PAYHIS_PAYCAL_FK" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="C5ABD798-3C00-EB79-534A-7072ECA67FAE" name="PAYHIS_STF_FK" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="735CAA65-374E-30BC-BB87-1556C590F83C" name="PAYIN_STF_FK" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="B492AC5F-12DD-F83A-BC81-D0AED65CBB8D" name="PAYROST_STF_FK" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="02B7DCF5-E50C-4DE4-7373-28B769DEA4C9" name="RST_CREATEBY_FK" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="35071A2D-EF9C-B2AD-72D9-A673BF81DD4B" name="RST_STF_FK" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="2FA33CE2-55A8-3A2A-B7DF-CA8B224A5187" name="RST_TFINISH_FK" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="BF49AFFD-ECE1-99C0-D136-CEC930527C05" name="RST_TSTART_FK" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="1D9C2EEC-11F4-05B1-FFFA-64E2B4967E21" name="RST_UPDATEBY_FK" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="44C98F84-E561-C868-D7D8-2C5D8075FDAB" name="STFBEN_BENID_FK" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="F88CE181-A428-B54F-2B48-B6A863477CFC" name="STFBEN_STFID_FK" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="775EB61D-EE3F-6B52-721D-B574AFE31F0E" name="STFPAYBEN_STFID_FK" seqName="seg_0"/>
+</oracle.dbtools.crest.model.design.relational.RelationalDesign>

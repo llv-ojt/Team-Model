@@ -1,0 +1,35 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="PAYROST" directorySegmentName="seg_0" id="14F79755-5840-9EC8-B2BD-227E1A86CDA3">
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-23 11:55:25 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<schemaObject>85EC452A-AAC3-D4D3-81A7-C51E0B6ED4D9</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<tableSpace>A1255D33-A03D-06FC-E9F8-B7E20DB55E0B</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="DATE" id="45F9FB0B-6003-AA7D-F813-A01CAC163C91">
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-23 11:55:25 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="STF_ID" id="612F80C1-AD41-8F73-F3F5-A059653813F4">
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-23 11:55:25 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ACTUAL" id="8FFC79E4-ECD0-EBCD-2C57-9A2F700D4207">
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-23 11:55:25 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="PAYROST_STF_FK" id="907B5F4C-D4B7-A35C-0A59-FC9623B7E858">
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-23 11:55:25 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+</TableProxyOraclev11g>

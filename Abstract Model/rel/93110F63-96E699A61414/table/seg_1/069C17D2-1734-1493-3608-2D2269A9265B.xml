@@ -1,0 +1,92 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_1" id="069C17D2-1734-1493-3608-2D2269A9265B" name="RESPAY">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>OJT</sourceObjSchema>
+<sourceObjName>RESPAY</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<commentInRDBMS>Matches payments to bookings so that theu can be split across multiple bookings and/or have multiple payments in varying currencies against a booking</commentInRDBMS>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<schemaObject>DD61CB21-E947-9CB5-F4CC-EB516A951FB9</schemaObject>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="RESID" id="C82A124F-369D-E817-DC5D-F37CC88736D0">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>RESPAY</sourceObjSchema>
+<sourceObjName>RESID</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<commentInRDBMS>Pointer to RES receiving part or all of this payment</commentInRDBMS>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PAYID" id="BBD32460-C1E7-9CBC-8308-5A39503B7CF3">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>RESPAY</sourceObjSchema>
+<sourceObjName>PAYID</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<commentInRDBMS>Pointer to PID in PAY which this payment forms part or all of</commentInRDBMS>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="AMOUNT" id="9F50F0E0-A367-0192-94C8-457C764E8F01">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>RESPAY</sourceObjSchema>
+<sourceObjName>AMOUNT</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<commentInRDBMS>Amount of the payment attached to this RES. Obtain currency from PAY, and also Purpose (deposit, final payment etc) and other reference data</commentInRDBMS>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C1BB50F8-C67B-C6D5-93FF-2C99891CBF17" name="RESPAY_PK">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>OJT</sourceObjSchema>
+<sourceObjName>RESPAY_PK</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<schemaObject>DD61CB21-E947-9CB5-F4CC-EB516A951FB9</schemaObject>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C82A124F-369D-E817-DC5D-F37CC88736D0"/>
+<colUsage columnID="BBD32460-C1E7-9CBC-8308-5A39503B7CF3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="941A0D9B-E4E1-1EDF-D5DB-2DFCAEBDECEA" name="RESPAY_IDX">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>OJT</sourceObjSchema>
+<sourceObjName>RESPAY_IDX</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<schemaObject>DD61CB21-E947-9CB5-F4CC-EB516A951FB9</schemaObject>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BBD32460-C1E7-9CBC-8308-5A39503B7CF3"/>
+<colUsage columnID="C82A124F-369D-E817-DC5D-F37CC88736D0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

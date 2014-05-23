@@ -1,0 +1,199 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_1" id="4BAD3E7C-0DCF-4934-98B3-90E2E6FC0A9D" name="RMCPA">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>OJT</sourceObjSchema>
+<sourceObjName>RMCPA</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<commentInRDBMS>Room Category PreAllocation defaults&lt;br/&gt;&lt;br/&gt;A trigger on RMCPA expands the allocation defaults to generate an allocation per day per category for the defined agent onto table RBHPA, where they can then be overridden as necessary.</commentInRDBMS>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<schemaObject>DD61CB21-E947-9CB5-F4CC-EB516A951FB9</schemaObject>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="AGTID" id="5FE91E0A-E67B-3A1C-3296-999DE7FD8DA2">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>RMCPA</sourceObjSchema>
+<sourceObjName>AGTID</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="RMCID" id="4A3DAA00-B333-21A1-EC85-E551EDDE6CCA">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>RMCPA</sourceObjSchema>
+<sourceObjName>RMCID</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NO_OF_ROOMS" id="1666B3CE-C61D-7BC7-475A-D0F7297B2803">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>RMCPA</sourceObjSchema>
+<sourceObjName>NO_OF_ROOMS</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="STARTD" id="1E43CCC3-22FA-B8C0-3333-00AE680236F8">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>RMCPA</sourceObjSchema>
+<sourceObjName>STARTD</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ENDD" id="216D24F2-E7BE-2F96-17D7-73779552A844">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>RMCPA</sourceObjSchema>
+<sourceObjName>ENDD</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID" id="E514364F-7BD0-BC71-9843-66F1A80EF0A7">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>RMCPA</sourceObjSchema>
+<sourceObjName>ID</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CREATEDT" id="4EF4E84A-EE94-1F9C-4009-2231FCACF4F5">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>RMCPA</sourceObjSchema>
+<sourceObjName>CREATEDT</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CREATEBY" id="0C0D9817-03EF-7845-DF61-F08C7BE89DB5">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>RMCPA</sourceObjSchema>
+<sourceObjName>CREATEBY</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="UPDATEDT" id="F9134605-25BB-5701-26E2-C6931C8A301A">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>RMCPA</sourceObjSchema>
+<sourceObjName>UPDATEDT</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="UPDATEBY" id="D5279B2A-6183-DAE7-CCB0-43E03D0231EB">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>RMCPA</sourceObjSchema>
+<sourceObjName>UPDATEBY</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2381F478-15C2-F7A6-BF30-1690F6B808E1" name="RMCPA_PK">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>OJT</sourceObjSchema>
+<sourceObjName>RMCPA_PK</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<schemaObject>DD61CB21-E947-9CB5-F4CC-EB516A951FB9</schemaObject>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E514364F-7BD0-BC71-9843-66F1A80EF0A7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C22AAA44-2E77-A744-DDEF-6BEE7E54261B" name="RMCPA_AGT_IDX">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>OJT</sourceObjSchema>
+<sourceObjName>RMCPA_AGT_IDX</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<schemaObject>DD61CB21-E947-9CB5-F4CC-EB516A951FB9</schemaObject>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5FE91E0A-E67B-3A1C-3296-999DE7FD8DA2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6CEEA696-2838-DC68-FB18-BEA4ADE4B972" name="RMCPA_UNIQUE">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>OJT</sourceObjSchema>
+<sourceObjName>RMCPA_UNIQUE</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<schemaObject>DD61CB21-E947-9CB5-F4CC-EB516A951FB9</schemaObject>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5FE91E0A-E67B-3A1C-3296-999DE7FD8DA2"/>
+<colUsage columnID="4A3DAA00-B333-21A1-EC85-E551EDDE6CCA"/>
+<colUsage columnID="1E43CCC3-22FA-B8C0-3333-00AE680236F8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

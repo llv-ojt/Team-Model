@@ -1,0 +1,88 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="PAYIN" directorySegmentName="seg_0" id="780FFB8B-0CD5-57EA-813F-92459652F4A9">
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-23 11:55:25 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<schemaObject>85EC452A-AAC3-D4D3-81A7-C51E0B6ED4D9</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<tableSpace>A1255D33-A03D-06FC-E9F8-B7E20DB55E0B</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="VACATIONDAY" id="04CD62B2-C6D4-F6CB-E91B-12AF93E879A1">
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-23 11:55:25 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="SPECIAL_ON" id="1BCF2E30-24C9-D9EE-29EE-3F8423DF40AA">
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-23 11:55:25 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ID" id="1D998CA9-5476-687D-6F46-01A453B4F133">
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-23 11:55:25 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="OTHOURS" id="29ABE11B-000E-C818-B97E-C237A2AFEAF4">
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-23 11:55:25 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="LEAVE" id="2D511C20-577B-3224-4B8F-984AB46D2E72">
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-23 11:55:25 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="AWOL" id="37E08106-2290-8EE9-95C2-967749702D67">
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-23 11:55:25 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="REGHOL_ON" id="3DFA9C3F-D1EC-1129-A4DD-34EBA80A64D1">
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-23 11:55:25 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="REGHOL_OFF" id="6C396C74-3E1B-F32E-658A-9E2F1E8ABD2B">
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-23 11:55:25 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="SICKDAY" id="82B37040-BFE3-A53B-13CE-EFF29599E2FB">
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-23 11:55:25 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="NORMALDAYS" id="8DAFB25B-1907-CBA5-3EE3-28841012F398">
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-23 11:55:25 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="STF_ID" id="D9ED0059-096D-8075-1913-93B589CA6B6D">
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-23 11:55:25 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="SPECIAL_OFF" id="E5482493-CFE0-B385-C8D1-C5DDB4959F64">
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-23 11:55:25 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="PAYIN_STF_FK" id="CA33C9D5-B813-9D7B-6825-5ECE3389E501">
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-23 11:55:25 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="PAYIN_PK" id="F04AA5FC-5D81-FC53-629D-880136FD8CB7">
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-23 11:55:25 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

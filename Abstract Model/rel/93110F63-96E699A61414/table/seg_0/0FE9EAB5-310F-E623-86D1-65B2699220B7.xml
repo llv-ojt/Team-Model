@@ -1,0 +1,661 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0FE9EAB5-310F-E623-86D1-65B2699220B7" name="CONFIG">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>OJT</sourceObjSchema>
+<sourceObjName>CONFIG</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:29 UTC</createdTime>
+<commentInRDBMS>Single-record of value-attribute pairs for site configuration parameters and global constants</commentInRDBMS>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<schemaObject>DD61CB21-E947-9CB5-F4CC-EB516A951FB9</schemaObject>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="SITENAME" id="8811A22E-311A-7507-BFA4-105B819D8B6A">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>CONFIG</sourceObjSchema>
+<sourceObjName>SITENAME</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SITENUMBER" id="15B6ED18-FA7C-6F07-E0E2-647119B0EC8F">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>CONFIG</sourceObjSchema>
+<sourceObjName>SITENUMBER</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SYSTEMNAME" id="B55E377A-99DA-CC83-569E-8C227F9D0333">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>CONFIG</sourceObjSchema>
+<sourceObjName>SYSTEMNAME</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="VERSIONNUMBER" id="6E153100-4173-24EE-F8AD-13DE0A21491A">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>CONFIG</sourceObjSchema>
+<sourceObjName>VERSIONNUMBER</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<dataTypeScale>3</dataTypeScale>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SITE_EMAILFROM" id="2262D8B3-24D5-DF54-AB2E-A65EDE711B16">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>CONFIG</sourceObjSchema>
+<sourceObjName>SITE_EMAILFROM</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<commentInRDBMS>address to use as sender when generating emails within OARS</commentInRDBMS>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SITE_TIMEZONE" id="AA3A69CD-DC80-10C9-3C8A-240C1DA11258">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>CONFIG</sourceObjSchema>
+<sourceObjName>SITE_TIMEZONE</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<commentInRDBMS>adjustment from server timezone to site timezone, in hours</commentInRDBMS>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<dataTypeScale>1</dataTypeScale>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SITE_EMAILTO" id="F3DAC488-D50F-0240-EEEC-435AA33CEE94">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>CONFIG</sourceObjSchema>
+<sourceObjName>SITE_EMAILTO</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<commentInRDBMS>Eamil addressees for system geberated messages</commentInRDBMS>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SITE_EMAILCC" id="3F23AEC1-ABA0-03ED-EFDF-2A67BC79407E">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>CONFIG</sourceObjSchema>
+<sourceObjName>SITE_EMAILCC</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>300 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SITE_EMAILBCC" id="C7CCE50E-0245-6EA2-A316-D9ED4D9F4542">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>CONFIG</sourceObjSchema>
+<sourceObjName>SITE_EMAILBCC</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SITE_SMSTO" id="9DA1715D-D480-F58E-9975-1754C218B49A">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>CONFIG</sourceObjSchema>
+<sourceObjName>SITE_SMSTO</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<commentInRDBMS>mobile ohone number for generated SMS messages</commentInRDBMS>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>300 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SITE_SMSON" id="0915735C-CC27-8C58-E955-D8D83455B160">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>CONFIG</sourceObjSchema>
+<sourceObjName>SITE_SMSON</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<commentInRDBMS>Flag to switch SMS messageds on and off</commentInRDBMS>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SITE_RATEREVIEW" id="5EB38A19-1CBC-69D6-0210-6FC4FEB80BFF">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>CONFIG</sourceObjSchema>
+<sourceObjName>SITE_RATEREVIEW</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<commentInRDBMS>Date of next rate increase for all villas; should coincide with a seasonal rate change date!!</commentInRDBMS>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SITE_URL" id="D7BBE94E-C25F-4C36-4D4F-454F9C28F59F">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>CONFIG</sourceObjSchema>
+<sourceObjName>SITE_URL</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<commentInRDBMS>website address, appended to email</commentInRDBMS>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SITE_CCRATE" id="03DEF9D2-8291-8C1A-4CCF-B2E1285BBB4F">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>CONFIG</sourceObjSchema>
+<sourceObjName>SITE_CCRATE</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<commentInRDBMS>Credit Card usage rate charged to guest</commentInRDBMS>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<dataTypeScale>4</dataTypeScale>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SITE_CCBANK" id="BDE56B55-D9CB-00AD-5F1B-F3AC158D1FB4">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>CONFIG</sourceObjSchema>
+<sourceObjName>SITE_CCBANK</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<commentInRDBMS>Credit Card usage rate charged  by bank</commentInRDBMS>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<dataTypeScale>4</dataTypeScale>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SITE_CURRENCY_CODE" id="22A4E48D-3342-8766-B089-94EE41D055D3">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>CONFIG</sourceObjSchema>
+<sourceObjName>SITE_CURRENCY_CODE</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<commentInRDBMS>system local currency code</commentInRDBMS>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>3 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SITE_VATRATE" id="039643FF-1166-9C9D-1435-D6E67E6DDD9E">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>CONFIG</sourceObjSchema>
+<sourceObjName>SITE_VATRATE</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<commentInRDBMS>Value added tax rate as a %</commentInRDBMS>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SITE_SERVRATE" id="AEE8A582-5DB2-AE7C-E284-0755A8CC1683">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>CONFIG</sourceObjSchema>
+<sourceObjName>SITE_SERVRATE</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<commentInRDBMS>service charge rate</commentInRDBMS>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<dataTypeScale>3</dataTypeScale>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SITE_BOOKCURR" id="AB8F744E-167A-7A35-35FE-3E545F2B3144">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>CONFIG</sourceObjSchema>
+<sourceObjName>SITE_BOOKCURR</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>3 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SITE_RATECURR" id="04973897-2509-6A30-8C22-B49158CC6381">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>CONFIG</sourceObjSchema>
+<sourceObjName>SITE_RATECURR</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<commentInRDBMS>Currency in which rates are primarily advertised</commentInRDBMS>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>3 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="RATE_ENTRY" id="B15F59A4-16B8-55E9-7BC2-9A0D1ECC5A84">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>CONFIG</sourceObjSchema>
+<sourceObjName>RATE_ENTRY</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<commentInRDBMS>G=gross, N=net</commentInRDBMS>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="RATE_TS" id="E757727C-175F-A546-E9F4-131D790F7593">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>CONFIG</sourceObjSchema>
+<sourceObjName>RATE_TS</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<commentInRDBMS>twin share supplement</commentInRDBMS>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<defaultValue>0</defaultValue>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="RATE_EB" id="2F685E13-1465-385C-1D39-9C61E9166903">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>CONFIG</sourceObjSchema>
+<sourceObjName>RATE_EB</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<commentInRDBMS>extra bed</commentInRDBMS>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<defaultValue>0</defaultValue>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="RATE_EC" id="D675586B-6B7B-E842-6BDD-FD8222795404">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>CONFIG</sourceObjSchema>
+<sourceObjName>RATE_EC</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<commentInRDBMS>extra cot</commentInRDBMS>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<defaultValue>0</defaultValue>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DEPOSIT_PC" id="CAFA61D2-1EAF-5CE7-A00C-B61BE58854DF">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>CONFIG</sourceObjSchema>
+<sourceObjName>DEPOSIT_PC</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<commentInRDBMS>% of total booking value required as deposit; higher of this figure or one night&apos;s room rate will be used.</commentInRDBMS>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<dataTypeScale>1</dataTypeScale>
+<defaultValue>0</defaultValue>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LOWSEASON" id="30BE3C61-5E2E-6C36-BEBF-0098A972ACF4">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>CONFIG</sourceObjSchema>
+<sourceObjName>LOWSEASON</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<commentInRDBMS>default seasonal adjustment factor - low season</commentInRDBMS>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<defaultValue>100</defaultValue>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="HIGHSEASON" id="4A735385-6755-D01B-6D03-D3EC45084743">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>CONFIG</sourceObjSchema>
+<sourceObjName>HIGHSEASON</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<commentInRDBMS>default seasonal adjustment factor - high season</commentInRDBMS>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<defaultValue>100</defaultValue>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PEAKSEASON" id="B4A1AEF3-2149-C594-1B85-1472277C6E74">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>CONFIG</sourceObjSchema>
+<sourceObjName>PEAKSEASON</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<commentInRDBMS>default seasonal adjustment factor - peak season</commentInRDBMS>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<defaultValue>100</defaultValue>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SITE_STKUPD" id="A5603255-A0B9-571C-EE0D-E6D171506124">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>CONFIG</sourceObjSchema>
+<sourceObjName>SITE_STKUPD</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<commentInRDBMS>controls whether or not to generate stock updates from F+B activity</commentInRDBMS>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FB_GSTID" id="3976B462-C598-711F-A977-7DAD86E8C972">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>CONFIG</sourceObjSchema>
+<sourceObjName>FB_GSTID</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<commentInRDBMS>default guest ID used for cash settlements of F+B tabs for Walkins</commentInRDBMS>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FB_ESID" id="6A755A95-A860-A7FA-5EDE-E31266D7AF52">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>CONFIG</sourceObjSchema>
+<sourceObjName>FB_ESID</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<commentInRDBMS>default service code used for F+B room charge</commentInRDBMS>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FB_DELIV_PC" id="26F9B068-E735-B345-AEE9-EA2E40CB9AEF">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>CONFIG</sourceObjSchema>
+<sourceObjName>FB_DELIV_PC</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<commentInRDBMS>delivery fee (room service) as a percentage of total line items after discount; if null, use flat fee</commentInRDBMS>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<dataTypeScale>1</dataTypeScale>
+<defaultValue>0</defaultValue>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FB_DELIV_FEE" id="D4CDFF5C-CD45-D786-3A45-9D8B1C3652B9">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>CONFIG</sourceObjSchema>
+<sourceObjName>FB_DELIV_FEE</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<commentInRDBMS>room service/delivery flat fee; used if percentage field is null</commentInRDBMS>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FB_STF_DISC" id="238B351D-7260-E210-6F96-6DECC7DD9DB2">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>CONFIG</sourceObjSchema>
+<sourceObjName>FB_STF_DISC</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<commentInRDBMS>food +BEV, staff discount percentage </commentInRDBMS>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="UPDATEDT" id="28CDC05C-595A-5FE6-82CE-8B61A92685EF">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>CONFIG</sourceObjSchema>
+<sourceObjName>UPDATEDT</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="UPDATEBY" id="D6FD7608-3956-D2C8-FF48-025316B699CD">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>CONFIG</sourceObjSchema>
+<sourceObjName>UPDATEBY</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOTES" id="AE564F13-FB9A-8735-A34A-2575BB167EEF">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>CONFIG</sourceObjSchema>
+<sourceObjName>NOTES</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<commentInRDBMS>Booking date</commentInRDBMS>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>4000 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="RATE_CAN_VARY" id="CACCCE15-25EA-BF54-0BF5-4B7FAEE7099C">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>CONFIG</sourceObjSchema>
+<sourceObjName>RATE_CAN_VARY</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<commentInRDBMS>set to Y if room rate subject to seasonal variations, otherwise N which avoids unnecessary checking during booking entry</commentInRDBMS>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="BENCHMARK_XRATE" id="19B370E9-6A38-C735-CE7F-19C5B8821326">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>CONFIG</sourceObjSchema>
+<sourceObjName>BENCHMARK_XRATE</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<commentInRDBMS>Notional exchange rate from International currency (usually US$) to local</commentInRDBMS>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<dataTypeScale>4</dataTypeScale>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PP_SANDBOX" id="AE76802C-0B3A-91C4-51D6-AA08F66F5D0E">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>CONFIG</sourceObjSchema>
+<sourceObjName>PP_SANDBOX</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<commentInRDBMS>THIS FILED INDICATE WHETHER PAYPAL IS INTO SANDBOX OR LIVE ENVIRONMENT.&lt;br/&gt;SANDBOX = Y&lt;br/&gt;LIVE = N</commentInRDBMS>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1 BYTE</dataTypeSize>
+<defaultValue>&apos;Y&apos;</defaultValue>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PP_ACCOUNT" id="CB956C8D-B6E3-AB3F-1E5D-6B1C9AF7B1AE">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>CONFIG</sourceObjSchema>
+<sourceObjName>PP_ACCOUNT</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<commentInRDBMS>THIS FIELD HOLD VALUE OF PAYPAL ACCOUNT/MERCHANT ID.</commentInRDBMS>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6CC013C6-7881-B918-B451-FAA29745FA33" name="CONFIG_PK">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>OJT</sourceObjSchema>
+<sourceObjName>CONFIG_PK</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<schemaObject>DD61CB21-E947-9CB5-F4CC-EB516A951FB9</schemaObject>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="15B6ED18-FA7C-6F07-E0E2-647119B0EC8F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

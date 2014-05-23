@@ -1,0 +1,56 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5D907026-1DF9-328B-1883-CCBF1EA926CA" name="LU_RST_TIMES">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>OJT</sourceObjSchema>
+<sourceObjName>LU_RST_TIMES</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 14:39:51 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<importedID>D832DA21-0BFE-A427-8974-2C0ECB1DF915</importedID>
+<schemaObject>85EC452A-AAC3-D4D3-81A7-C51E0B6ED4D9</schemaObject>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="TIME_CODE" id="11BED357-B19A-0D1E-6E4B-4417DD4984FB">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>LU_RST_TIMES</sourceObjSchema>
+<sourceObjName>TIME_CODE</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 14:39:51 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<importedID>6DCE9286-17AF-9464-A6C4-3F5C20CD532C</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TIME_DISP" id="68DDCDF9-D2A9-F461-D1A5-9822B09DD7A3">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>LU_RST_TIMES</sourceObjSchema>
+<sourceObjName>TIME_DISP</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 14:39:51 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<importedID>1D274CE6-3EA6-B838-255D-54B50CAB55AC</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>6 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="77C766B9-28E3-4050-736E-7AE4B1F94FE9" name="LU_RST_TIMES_PK">
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 17:17:39 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="11BED357-B19A-0D1E-6E4B-4417DD4984FB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

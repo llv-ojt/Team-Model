@@ -1,0 +1,265 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_1" id="D8FD8EBD-42E8-A055-FB88-D236DB7EF52A" name="PWR_IN">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>OJT</sourceObjSchema>
+<sourceObjName>PWR_IN</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<schemaObject>DD61CB21-E947-9CB5-F4CC-EB516A951FB9</schemaObject>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="647EA077-4434-AD0D-0E88-6D63EDC81F7F">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>PWR_IN</sourceObjSchema>
+<sourceObjName>ID</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SITE" id="52B88042-E49D-5A55-D19A-DD594884A5D7">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>PWR_IN</sourceObjSchema>
+<sourceObjName>SITE</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>2 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LOGDT" id="F74B0DE2-B118-9DB1-0BEC-D28B71A99F24">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>PWR_IN</sourceObjSchema>
+<sourceObjName>LOGDT</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="I3090L1" id="B5AFFC6B-33E4-43E7-1A9B-3AD4DA309E28">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>PWR_IN</sourceObjSchema>
+<sourceObjName>I3090L1</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="I3090L2" id="BEDBB987-CD2B-F783-A2A3-BEB2EE5FAA2E">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>PWR_IN</sourceObjSchema>
+<sourceObjName>I3090L2</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="I3090L3" id="8CF87C12-766A-E6A0-9FF3-17AA88B51A2B">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>PWR_IN</sourceObjSchema>
+<sourceObjName>I3090L3</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="I3113L1" id="12EA3BD3-9E34-9EE1-6DFB-55AC350AF2C3">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>PWR_IN</sourceObjSchema>
+<sourceObjName>I3113L1</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="I3113L2" id="51E1F663-5DDE-F8CD-CB3A-70B98CAB126E">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>PWR_IN</sourceObjSchema>
+<sourceObjName>I3113L2</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="I3113L3" id="CAC9F946-3CF2-AE95-C7D7-95769D7E2198">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>PWR_IN</sourceObjSchema>
+<sourceObjName>I3113L3</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="I3116L1" id="B6E2AB5B-D9BD-F2FA-50C0-2EEF92CD37CC">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>PWR_IN</sourceObjSchema>
+<sourceObjName>I3116L1</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="I3116L2" id="4A1E770E-D7C7-8A85-6820-43EFC019CDFE">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>PWR_IN</sourceObjSchema>
+<sourceObjName>I3116L2</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="I3116L3" id="904F4753-BFA7-619E-121E-92C004A31C9B">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>PWR_IN</sourceObjSchema>
+<sourceObjName>I3116L3</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="I3098L1" id="9F9D276F-86DC-B45D-004C-98C6A18AF52C">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>PWR_IN</sourceObjSchema>
+<sourceObjName>I3098L1</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="I3098L2" id="79C63756-ECF8-C801-A882-057EC34A082E">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>PWR_IN</sourceObjSchema>
+<sourceObjName>I3098L2</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="I3098L3" id="C5D5CFE0-2B13-227A-00BE-9548D923B1DF">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>PWR_IN</sourceObjSchema>
+<sourceObjName>I3098L3</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="I3097L1" id="73360F74-BBA2-E082-70A0-4BBCC1796451">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>PWR_IN</sourceObjSchema>
+<sourceObjName>I3097L1</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="I3097L2" id="46DD1E88-27FA-4A30-FDC1-CBB9D8E06318">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>PWR_IN</sourceObjSchema>
+<sourceObjName>I3097L2</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="I3097L3" id="81496F96-D18D-E314-1818-7A051DF70F4F">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>PWR_IN</sourceObjSchema>
+<sourceObjName>I3097L3</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A5451D17-2969-DCA9-B30E-410EEE943C2E" name="PWR_IN_PK">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>OJT</sourceObjSchema>
+<sourceObjName>PWR_IN_PK</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<schemaObject>DD61CB21-E947-9CB5-F4CC-EB516A951FB9</schemaObject>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="647EA077-4434-AD0D-0E88-6D63EDC81F7F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

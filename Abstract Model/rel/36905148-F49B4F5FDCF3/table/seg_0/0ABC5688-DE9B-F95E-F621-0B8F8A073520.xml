@@ -1,0 +1,71 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0ABC5688-DE9B-F95E-F621-0B8F8A073520" name="STFBEN">
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 17:45:11 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<schemaObject>85EC452A-AAC3-D4D3-81A7-C51E0B6ED4D9</schemaObject>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="STF_ID" id="5F8D2B6A-2F0B-71CD-0F69-D401DBECED1A">
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 17:46:24 UTC</createdTime>
+<comment>The Staff ID of benefitiary employee.</comment>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<domain>ACAFF37B-6043-A313-7213-9C358212F4B2</domain>
+<delegate>AB8C881F-BF04-FC75-6BE6-488CD2A1F65F</delegate>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F88CE181-A428-B54F-2B48-B6A863477CFC" referredColumn="AB8C881F-BF04-FC75-6BE6-488CD2A1F65F"/>
+</associations>
+</Column>
+<Column name="BEN_ID" id="3307430B-DC74-B6FD-5FF1-DA1AAE011822">
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 17:46:24 UTC</createdTime>
+<comment>The corresponding benefit (BEN_ID) for the employee.</comment>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>ACAFF37B-6043-A313-7213-9C358212F4B2</domain>
+<delegate>34119F2B-3EDB-7C00-8371-A36651830B1A</delegate>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="44C98F84-E561-C868-D7D8-2C5D8075FDAB" referredColumn="34119F2B-3EDB-7C00-8371-A36651830B1A"/>
+</associations>
+</Column>
+<Column name="AMOUNT" id="8134C777-E176-29E3-F172-1615887390FF">
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 17:46:24 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C2C6ECB3-8097-E0EB-96E3-3D707D8B596A" name="STFBEN_STFID_FK">
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 17:48:22 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5F8D2B6A-2F0B-71CD-0F69-D401DBECED1A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="484284CE-C5A9-03AF-719C-6CCA49D023AE" name="STFBEN_BENID_FK">
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 17:48:46 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3307430B-DC74-B6FD-5FF1-DA1AAE011822"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

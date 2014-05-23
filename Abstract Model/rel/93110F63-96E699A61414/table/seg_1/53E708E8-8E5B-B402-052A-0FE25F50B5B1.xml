@@ -1,0 +1,122 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_1" id="53E708E8-8E5B-B402-052A-0FE25F50B5B1" name="RBH">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>OJT</sourceObjSchema>
+<sourceObjName>RBH</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<commentInRDBMS>Room Booking History</commentInRDBMS>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<schemaObject>DD61CB21-E947-9CB5-F4CC-EB516A951FB9</schemaObject>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="VILID" id="3F90FF3A-D4B1-9DA7-12C4-DEF6381AFBC6">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>RBH</sourceObjSchema>
+<sourceObjName>VILID</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<commentInRDBMS>Villa/room ordinal</commentInRDBMS>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="BOOKD" id="EE48A657-4E8C-75DD-6AE8-AAADC336F390">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>RBH</sourceObjSchema>
+<sourceObjName>BOOKD</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<commentInRDBMS>Truncated date</commentInRDBMS>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="RESID" id="EC58DE4C-364F-CFC0-5046-ABE48A98916E">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>RBH</sourceObjSchema>
+<sourceObjName>RESID</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<commentInRDBMS>pointer to RES, if not null. Can be negative to indicate a blocked booking, use abs(resid) to find</commentInRDBMS>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID" id="EFB3EFEB-F986-1933-2A6E-7FAF6055BA32">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>RBH</sourceObjSchema>
+<sourceObjName>ID</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<commentInRDBMS>primary key, get auto-populated using BI trigger</commentInRDBMS>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B2EB03BB-717A-4060-4528-B7AD5EEB5573" name="RBH_PK">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>OJT</sourceObjSchema>
+<sourceObjName>RBH_PK</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<schemaObject>DD61CB21-E947-9CB5-F4CC-EB516A951FB9</schemaObject>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EFB3EFEB-F986-1933-2A6E-7FAF6055BA32"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0FCE380E-A43F-A7DA-FC79-10ED459D30FC" name="RBH_RES_IDX">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>OJT</sourceObjSchema>
+<sourceObjName>RBH_RES_IDX</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<schemaObject>DD61CB21-E947-9CB5-F4CC-EB516A951FB9</schemaObject>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EC58DE4C-364F-CFC0-5046-ABE48A98916E"/>
+<colUsage columnID="EE48A657-4E8C-75DD-6AE8-AAADC336F390"/>
+<colUsage columnID="3F90FF3A-D4B1-9DA7-12C4-DEF6381AFBC6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0F8866B7-A27D-5062-7E4F-24EEA73C248E" name="RBH_DATE_IDX">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>OJT</sourceObjSchema>
+<sourceObjName>RBH_DATE_IDX</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<schemaObject>DD61CB21-E947-9CB5-F4CC-EB516A951FB9</schemaObject>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EE48A657-4E8C-75DD-6AE8-AAADC336F390" sortOrder="DESC"/>
+<colUsage columnID="3F90FF3A-D4B1-9DA7-12C4-DEF6381AFBC6"/>
+<colUsage columnID="EC58DE4C-364F-CFC0-5046-ABE48A98916E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

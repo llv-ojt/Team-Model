@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<SnapshotOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.SnapshotOraclev11g" name="LUG" directorySegmentName="seg_0" id="CD2CD44A-C384-4D62-CA53-E9F9F453DB1C">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>OJT</sourceObjSchema>
+<sourceObjName>LUG</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:29 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<schemaObject>DD61CB21-E947-9CB5-F4CC-EB516A951FB9</schemaObject>
+<action>ON DEMAND</action>
+<defaultSegment>NO</defaultSegment>
+<refresh>YES</refresh>
+<refreshType>COMPLETE</refreshType>
+<subquery>select lcode,ldescription from lookup where ltypes=&apos;G&apos;</subquery>
+<tablespace>BEBD602C-2802-60C2-A11D-91A797493A75</tablespace>
+<useIndex>YES</useIndex>
+<with>ROWID</with>
+</SnapshotOraclev11g>

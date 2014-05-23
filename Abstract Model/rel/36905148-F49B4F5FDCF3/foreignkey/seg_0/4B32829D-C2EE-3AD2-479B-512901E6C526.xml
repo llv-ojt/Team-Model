@@ -1,0 +1,13 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="4B32829D-C2EE-3AD2-479B-512901E6C526" name="WORKSTAT_PAYHIS_FK">
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-23 13:50:34 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<containerWithKeyObject>A43945ED-9C94-534E-8ED9-11369ABDB45C</containerWithKeyObject>
+<deleteRule>RESTRICT</deleteRule>
+<localFKIndex>5577FE43-91C8-2EF3-3D03-9FF08F039F12</localFKIndex>
+<keyObject>F5BC6100-01A7-E737-3B0F-FCF43CBA9E4E</keyObject>
+<mandatory>true</mandatory>
+<transferable>false</transferable>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

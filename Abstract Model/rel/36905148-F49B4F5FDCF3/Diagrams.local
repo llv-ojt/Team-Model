@@ -1,0 +1,4 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.relational.RelationalDesign>
+   <object objectType="main_view" objectID="8761F932-639A-CB0C-A53B-6277A792B96C" name="MaxDev-LLV3" visible="true"/>
+</oracle.dbtools.crest.model.design.relational.RelationalDesign>

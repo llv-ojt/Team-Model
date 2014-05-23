@@ -1,0 +1,109 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="4845135F-C07D-E670-8AFD-4C2287BF4092" name="LOGGER_LOGS_APEX_ITEMS">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>OJT</sourceObjSchema>
+<sourceObjName>LOGGER_LOGS_APEX_ITEMS</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:29 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<schemaObject>DD61CB21-E947-9CB5-F4CC-EB516A951FB9</schemaObject>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="9C1113D9-C2F0-DC79-662E-7AA8C760AA89">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>LOGGER_LOGS_APEX_ITEMS</sourceObjSchema>
+<sourceObjName>ID</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LOG_ID" id="AFDE145C-C0B5-FE23-2FAA-02F0E41E4DB8">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>LOGGER_LOGS_APEX_ITEMS</sourceObjSchema>
+<sourceObjName>LOG_ID</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="APP_SESSION" id="D1771927-840A-B48C-4E64-DDC32AF316AF">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>LOGGER_LOGS_APEX_ITEMS</sourceObjSchema>
+<sourceObjName>APP_SESSION</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ITEM_NAME" id="981CB6C5-7E48-FABD-88F3-13AE1D7CCBAB">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>LOGGER_LOGS_APEX_ITEMS</sourceObjSchema>
+<sourceObjName>ITEM_NAME</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1000 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ITEM_VALUE" id="8D504EB6-1128-560E-328C-BCFD7FBDAE4C">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>LOGGER_LOGS_APEX_ITEMS</sourceObjSchema>
+<sourceObjName>ITEM_VALUE</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT028</logicalDatatype>
+<dataTypeSize>4000</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0724D13D-7062-4B24-CBB0-CC48B2789428" name="LOGGER_APEX_ITEMS_IDX1">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>OJT</sourceObjSchema>
+<sourceObjName>LOGGER_APEX_ITEMS_IDX1</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<schemaObject>DD61CB21-E947-9CB5-F4CC-EB516A951FB9</schemaObject>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AFDE145C-C0B5-FE23-2FAA-02F0E41E4DB8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="670CB3F9-DAA4-CC6F-DD79-284879CE5592" name="LOGGER_LOGS_APX_ITMS_PK">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>OJT</sourceObjSchema>
+<sourceObjName>LOGGER_LOGS_APX_ITMS_PK</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<schemaObject>DD61CB21-E947-9CB5-F4CC-EB516A951FB9</schemaObject>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9C1113D9-C2F0-DC79-662E-7AA8C760AA89"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

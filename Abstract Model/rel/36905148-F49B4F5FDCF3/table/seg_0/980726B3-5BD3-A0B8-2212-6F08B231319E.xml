@@ -1,0 +1,262 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="980726B3-5BD3-A0B8-2212-6F08B231319E" name="PAYHIS">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>OJT</sourceObjSchema>
+<sourceObjName>STFPAY</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 14:39:51 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<importedID>84A4CAF4-B5CA-45E7-BA14-06FB59FBD7CE</importedID>
+<schemaObject>85EC452A-AAC3-D4D3-81A7-C51E0B6ED4D9</schemaObject>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="FB3323E9-3587-D792-06CC-5D0314E97546">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>STFPAY</sourceObjSchema>
+<sourceObjName>STF_ID</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 14:39:51 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<importedID>64C1A1C1-5EA0-296B-9A4E-B8D309428851</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<domain>ACAFF37B-6043-A313-7213-9C358212F4B2</domain>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NNC_PAYHIS_ID</notNullConstraintName>
+</Column>
+<Column name="PAYCAL_DATE" id="FBC78EF5-F9CF-96A7-33F1-821A5105E5AC">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>STFPAY</sourceObjSchema>
+<sourceObjName>PAYDATE</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 14:39:51 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<importedID>2B669863-D12F-6A2B-A381-0AAC67ED2955</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<delegate>38726F5B-1078-08B1-DEE3-B475D94162AB</delegate>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NNC_PAYHIS_PAYCAL_DATE</notNullConstraintName>
+<associations>
+<colAssociation fkAssociation="82810A2D-16E5-2A6A-3EC3-088FDB2212F8" referredColumn="38726F5B-1078-08B1-DEE3-B475D94162AB"/>
+</associations>
+</Column>
+<Column name="BASE" id="8CE4A7A6-59B2-E877-EB9F-8149AF90AF49">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>STFPAY</sourceObjSchema>
+<sourceObjName>BASE</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 14:39:51 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<importedID>E3556292-193A-3E75-D950-146B8B5F6178</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="HOLIDAY" id="2EF22F34-487C-50DE-9C5B-565AA5F3E8D3">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>STFPAY</sourceObjSchema>
+<sourceObjName>HOLIDAY</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 14:39:51 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<importedID>6B354FD7-FB5B-FB82-F00B-B57CEE3A9EA4</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SSS" id="6FF2D285-540B-90AB-D57D-B74249B446A8">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>STFPAY</sourceObjSchema>
+<sourceObjName>SSS</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 14:39:51 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<importedID>659C0484-0B41-81B8-A40E-45FD09F4DD2B</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PHILHEALTH" id="D5602BBE-1475-0BFC-DF77-FB88DA43EE02">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>STFPAY</sourceObjSchema>
+<sourceObjName>PHILHEALTH</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 14:39:51 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<importedID>9EEEEBD0-E250-A3B5-7081-81574970E9EC</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PAG_IBIG" id="A5F296DB-3584-2602-FD4D-425D98ABFEBA">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>STFPAY</sourceObjSchema>
+<sourceObjName>PAG_IBIG</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 14:39:51 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<importedID>9A7394F6-EA5D-8F31-AA25-472404446A89</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="BENEFITS" id="B6755C0F-4979-B873-2CE5-6F228C13A4C9">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>STFPAY</sourceObjSchema>
+<sourceObjName>BENEFITS</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 14:39:51 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<importedID>D7CC1ACD-9970-CDED-C817-566113EE4C10</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="OTIME" id="6CF0CC6B-40C7-2ECA-DC97-31CAC402DFC9">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>STFPAY</sourceObjSchema>
+<sourceObjName>OTIME</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 14:39:51 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<importedID>DC72BCC6-E496-F322-A548-F82F52FE8CE8</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="WHOLDTAX" id="5A79FAB5-1535-5FF0-B09B-D6BFCE19D8D3">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>STFPAY</sourceObjSchema>
+<sourceObjName>WHOLDTAX</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 14:39:51 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<importedID>B64B28B9-5A9D-AB63-3E27-C199BC06D8E3</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NETPAY" id="78249794-D1B4-9437-2F0C-83463AD53811">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>STFPAY</sourceObjSchema>
+<sourceObjName>NETPAY</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 14:39:51 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<importedID>40903F5D-799A-878B-E765-9DB5827AF8BF</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ROUNDING" id="A5BF00F8-17E9-B46C-2169-60672958BC1F">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>STFPAY</sourceObjSchema>
+<sourceObjName>ROUNDING</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 14:39:51 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<importedID>8FE93817-AB7C-8BA4-9892-DAA57332357C</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT049</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<dataTypeScale>6</dataTypeScale>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ACTUALPAY" id="C1FEA88E-6A7B-702E-14AB-B39A4C676693">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>STFPAY</sourceObjSchema>
+<sourceObjName>ACTUALPAY</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 14:39:51 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<importedID>A0A97B7B-29E4-A6D1-95CD-75EC1372F149</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="STFID" id="0FF92560-D25C-247D-9370-76CD44AF2B2E">
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 15:24:51 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<domain>ACAFF37B-6043-A313-7213-9C358212F4B2</domain>
+<delegate>AB8C881F-BF04-FC75-6BE6-488CD2A1F65F</delegate>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NNC_PAYHIS_STF_ID</notNullConstraintName>
+<associations>
+<colAssociation fkAssociation="C5ABD798-3C00-EB79-534A-7072ECA67FAE" referredColumn="AB8C881F-BF04-FC75-6BE6-488CD2A1F65F"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F5BC6100-01A7-E737-3B0F-FCF43CBA9E4E" name="PAYHIS_PK">
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 14:59:47 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FB3323E9-3587-D792-06CC-5D0314E97546"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="ACA21BCD-2177-4321-4523-98B6B57213A2" name="PAYHIS_STF_FK">
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 15:19:15 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0FF92560-D25C-247D-9370-76CD44AF2B2E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9B990D3F-79FC-811B-2345-F6589C5A9304" name="PAYHIS_PAYCAL_FK">
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 17:52:00 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FBC78EF5-F9CF-96A7-33F1-821A5105E5AC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

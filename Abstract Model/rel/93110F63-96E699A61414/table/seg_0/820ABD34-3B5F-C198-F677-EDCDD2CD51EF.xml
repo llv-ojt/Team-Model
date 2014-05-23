@@ -1,0 +1,101 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="820ABD34-3B5F-C198-F677-EDCDD2CD51EF" name="LOOKUP">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>OJT</sourceObjSchema>
+<sourceObjName>LOOKUP</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:29 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<schemaObject>DD61CB21-E947-9CB5-F4CC-EB516A951FB9</schemaObject>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="LTYPES" id="C0223B9F-C9BE-F04B-7C20-DC5C0AF250F7">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>LOOKUP</sourceObjSchema>
+<sourceObjName>LTYPES</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<commentInRDBMS>0=Master List of types; 1=Res Status; 2=Res Source; 3=Guest Types; 4=Payment Types; 5=Payment Method, 6=Mattress, 7=Bed Size, 8=Accom Category, 9=Cancel Reason, A=Zero Rate Reason, B=Agent Referer,C=StaffRole,D=TransportMethod, E=EmploymentBasis, F=Service Category,G=Supplier TYpes,H=Wine Variety,I=Winelist Section,J=Soldto,K=Bank Account Types,L=Restaurant Seating,M=Maintenance category,N=MNT cause,P=MNT sector,Q=Accom Class,R=Resto Menu Section</commentInRDBMS>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LCODE" id="D8DD61B8-6EC9-6A0D-F5CE-74F22E2F1581">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>LOOKUP</sourceObjSchema>
+<sourceObjName>LCODE</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LDESCRIPTION" id="2E2D0062-DB97-9FFC-33CB-09516A2E2D48">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>LOOKUP</sourceObjSchema>
+<sourceObjName>LDESCRIPTION</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="OARSLOGDT" id="ADD3C913-471D-9BFD-2551-D58DA3F15D9D">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>LOOKUP</sourceObjSchema>
+<sourceObjName>OARSLOGDT</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LSORT" id="A112ED83-BF8F-C82F-F628-6EA29793EC53">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>LOOKUP</sourceObjSchema>
+<sourceObjName>LSORT</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>4 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="987A3BBD-035E-B7C7-EC62-A52D5549FC4B" name="LOOKUP_PK">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>OJT</sourceObjSchema>
+<sourceObjName>LOOKUP_PK</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<schemaObject>DD61CB21-E947-9CB5-F4CC-EB516A951FB9</schemaObject>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C0223B9F-C9BE-F04B-7C20-DC5C0AF250F7"/>
+<colUsage columnID="D8DD61B8-6EC9-6A0D-F5CE-74F22E2F1581"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

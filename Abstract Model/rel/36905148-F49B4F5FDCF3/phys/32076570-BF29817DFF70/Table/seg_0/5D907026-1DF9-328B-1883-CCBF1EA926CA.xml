@@ -1,0 +1,32 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="LU_RST_TIMES" directorySegmentName="seg_0" id="5D907026-1DF9-328B-1883-CCBF1EA926CA">
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 14:39:51 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<schemaObject>85EC452A-AAC3-D4D3-81A7-C51E0B6ED4D9</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>A954284A-9FE9-D2AA-255A-7BF04BB1DB36</segment>
+<tableSpace>41250657-D6B2-8D33-28E6-A87C7C547396</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="TIME_CODE" id="11BED357-B19A-0D1E-6E4B-4417DD4984FB">
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 14:39:51 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="TIME_DISP" id="68DDCDF9-D2A9-F461-D1A5-9822B09DD7A3">
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 14:39:51 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="LU_RST_TIMES_PK" id="77C766B9-28E3-4050-736E-7AE4B1F94FE9">
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-23 11:55:25 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

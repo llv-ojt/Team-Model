@@ -1,0 +1,329 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9BCF7CA8-9FA2-D6EC-8990-5C24199DAEA5" name="RST">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>OJT</sourceObjSchema>
+<sourceObjName>RST</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 14:39:51 UTC</createdTime>
+<commentInRDBMS>More sophisticated and granular table to supercede RTR for staff roster definition&lt;br/&gt;</commentInRDBMS>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<importedID>D057B7AD-E7F3-B3F5-9016-CB01B5C16A92</importedID>
+<schemaObject>85EC452A-AAC3-D4D3-81A7-C51E0B6ED4D9</schemaObject>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="A8C8CF05-CFB1-9552-CE65-1C97CCFEC3A9">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>RST</sourceObjSchema>
+<sourceObjName>ID</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 14:39:51 UTC</createdTime>
+<commentInRDBMS>FROM RST_SEQ, primary key, althoiugh rdate+STFID would be unique</commentInRDBMS>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<importedID>2BD00EE1-EB5A-825A-787C-192E5568CD9C</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="RDATE" id="67EEC81E-6A62-2F21-3AFD-6E7B323C6C75">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>RST</sourceObjSchema>
+<sourceObjName>RDATE</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 14:39:51 UTC</createdTime>
+<commentInRDBMS>Date of the first day of the roster week. All days of the week have the same rdate</commentInRDBMS>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<importedID>D41A01DE-78A8-9FF3-AEB3-F6451A6318D8</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="STFID" id="FC96EC79-EF06-4CE0-6527-3FFA5FD48A50">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>RST</sourceObjSchema>
+<sourceObjName>STFID</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 14:39:51 UTC</createdTime>
+<commentInRDBMS>foreign key to STF table</commentInRDBMS>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<importedID>7F50D8F8-1ADF-AFD2-05E8-2B5B36EBF6B8</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<domain>ACAFF37B-6043-A313-7213-9C358212F4B2</domain>
+<delegate>AB8C881F-BF04-FC75-6BE6-488CD2A1F65F</delegate>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="35071A2D-EF9C-B2AD-72D9-A673BF81DD4B" referredColumn="AB8C881F-BF04-FC75-6BE6-488CD2A1F65F"/>
+</associations>
+</Column>
+<Column name="DOW" id="FF0F16E3-192C-DD98-C4AF-CFF3BDEC4561">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>RST</sourceObjSchema>
+<sourceObjName>DOW</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 14:39:51 UTC</createdTime>
+<commentInRDBMS>For convenience in arrary handling, day of the week is extracted from the date and stored</commentInRDBMS>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<importedID>E684437E-BFF5-770E-299D-CEF61E667852</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>1</dataTypePrecision>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TSTART" id="F8752C6F-8532-BA91-100A-2FAC7BB98D17">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>RST</sourceObjSchema>
+<sourceObjName>TSTART</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 14:39:51 UTC</createdTime>
+<commentInRDBMS>Start time, from LOV_ROSTER_TIME</commentInRDBMS>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<importedID>63456AFC-DFFC-4EBD-8824-EB8067A05707</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<delegate>11BED357-B19A-0D1E-6E4B-4417DD4984FB</delegate>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BF49AFFD-ECE1-99C0-D136-CEC930527C05" referredColumn="11BED357-B19A-0D1E-6E4B-4417DD4984FB"/>
+</associations>
+</Column>
+<Column name="TFINISH" id="DBA20A44-6A26-3167-EEE7-D3C0525AECB4">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>RST</sourceObjSchema>
+<sourceObjName>TFINISH</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 14:39:51 UTC</createdTime>
+<commentInRDBMS>fFinish time, from LOV_ROSTER_TIME</commentInRDBMS>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<importedID>1CBDFE65-CB55-8042-05B5-90BF0063667F</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<delegate>11BED357-B19A-0D1E-6E4B-4417DD4984FB</delegate>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2FA33CE2-55A8-3A2A-B7DF-CA8B224A5187" referredColumn="11BED357-B19A-0D1E-6E4B-4417DD4984FB"/>
+</associations>
+</Column>
+<Column name="TBREAK" id="C459820B-E2F4-562B-A451-9B79E1B14DC6">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>RST</sourceObjSchema>
+<sourceObjName>TBREAK</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 14:39:51 UTC</createdTime>
+<commentInRDBMS>Break time in minutes allowed for and included </commentInRDBMS>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<importedID>185AF89E-2C66-9A9E-AA83-CDA2631FC134</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<defaultValue>60</defaultValue>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CREATEDT" id="6CA92B95-0A7F-160C-EC9E-2BAE78C7E540">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>RST</sourceObjSchema>
+<sourceObjName>CREATEDT</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 14:39:51 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<importedID>39C7E840-F524-6547-1DDA-25ABEE52A046</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CREATEBY" id="A81F4DC8-6C56-ECFA-38EE-41B81B760FA1">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>RST</sourceObjSchema>
+<sourceObjName>CREATEBY</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 14:39:51 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<importedID>4F24F08D-CFB9-C017-F139-5344D8049592</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<delegate>94D40CEC-E2A3-6651-61B1-5A581D3EB3E9</delegate>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="02B7DCF5-E50C-4DE4-7373-28B769DEA4C9" referredColumn="94D40CEC-E2A3-6651-61B1-5A581D3EB3E9"/>
+</associations>
+</Column>
+<Column name="UPDATEDT" id="19A8F35C-4F0C-C629-15C9-19D552790561">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>RST</sourceObjSchema>
+<sourceObjName>UPDATEDT</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 14:39:51 UTC</createdTime>
+<commentInRDBMS>last updated timestamp</commentInRDBMS>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<importedID>59B8011C-E05E-6295-60F7-54BA662C951E</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="UPDATEBY" id="8C2668FE-2CD0-817E-2DC6-622262FD8103">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>RST</sourceObjSchema>
+<sourceObjName>UPDATEBY</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 14:39:51 UTC</createdTime>
+<commentInRDBMS>Last updated by</commentInRDBMS>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<importedID>42F037A9-9600-F64E-87FF-A56D217F194E</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<delegate>94D40CEC-E2A3-6651-61B1-5A581D3EB3E9</delegate>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1D9C2EEC-11F4-05B1-FFFA-64E2B4967E21" referredColumn="94D40CEC-E2A3-6651-61B1-5A581D3EB3E9"/>
+</associations>
+</Column>
+<Column name="NOTES" id="BD4F019F-53A1-81FE-84C1-256225B6AF1E">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>RST</sourceObjSchema>
+<sourceObjName>NOTES</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 14:39:51 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<importedID>4AAD57A5-853D-380E-4E85-FA96E2A9EB18</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="5D606DD3-98AB-30E8-7F6C-E03272CA3AEC" name="RST_PK">
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 16:23:25 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A8C8CF05-CFB1-9552-CE65-1C97CCFEC3A9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="81CDB246-99FB-B4EA-4601-7AE4994F9530" name="RST_ID_PK">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>OJT</sourceObjSchema>
+<sourceObjName>RST_ID_PK</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 14:39:51 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<importedID>C4438D08-2D75-7F2F-B853-4EB66E7EC670</importedID>
+<indexState>Unique Plain Index</indexState>
+<schemaObject>85EC452A-AAC3-D4D3-81A7-C51E0B6ED4D9</schemaObject>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A8C8CF05-CFB1-9552-CE65-1C97CCFEC3A9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="386AD515-CC63-D906-626A-D9DA0E94BE25" name="RST_STFID_IDX">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>OJT</sourceObjSchema>
+<sourceObjName>RST_STFID_IDX</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 14:39:51 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<importedID>321A0215-EE2D-BDB8-6C48-A5377FC52C58</importedID>
+<schemaObject>85EC452A-AAC3-D4D3-81A7-C51E0B6ED4D9</schemaObject>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FC96EC79-EF06-4CE0-6527-3FFA5FD48A50"/>
+<colUsage columnID="67EEC81E-6A62-2F21-3AFD-6E7B323C6C75"/>
+<colUsage columnID="FF0F16E3-192C-DD98-C4AF-CFF3BDEC4561"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7C744F76-3CB4-ECDB-B09D-01624E1EE8A3" name="RST_RDATE_IDX">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>OJT</sourceObjSchema>
+<sourceObjName>RST_RDATE_IDX</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 14:39:51 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<importedID>CEF32711-83DF-5E6B-6BB0-56DACD93EAA8</importedID>
+<schemaObject>85EC452A-AAC3-D4D3-81A7-C51E0B6ED4D9</schemaObject>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="67EEC81E-6A62-2F21-3AFD-6E7B323C6C75"/>
+<colUsage columnID="FF0F16E3-192C-DD98-C4AF-CFF3BDEC4561"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2A85A73D-51E0-85B9-6535-05E6AABE9A86" name="RST_STF_FK">
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 15:52:03 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FC96EC79-EF06-4CE0-6527-3FFA5FD48A50"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7B7B77A2-FBFF-5829-670A-A1B20CAFC33C" name="RST_CREATEBY_FK">
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 17:13:12 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A81F4DC8-6C56-ECFA-38EE-41B81B760FA1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="46C36B61-0D71-F24E-CE06-AC7A132B02A4" name="RST_UPDATEBY_FK">
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 17:13:46 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8C2668FE-2CD0-817E-2DC6-622262FD8103"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="367801F2-D958-BF22-5E22-66FB072228AF" name="RST_TSTART_FK">
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 17:20:22 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F8752C6F-8532-BA91-100A-2FAC7BB98D17"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8849346E-FB2A-EFA9-A3D5-176D5E4EA1CC" name="RST_TFINISH_FK">
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 17:20:22 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DBA20A44-6A26-3167-EEE7-D3C0525AECB4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

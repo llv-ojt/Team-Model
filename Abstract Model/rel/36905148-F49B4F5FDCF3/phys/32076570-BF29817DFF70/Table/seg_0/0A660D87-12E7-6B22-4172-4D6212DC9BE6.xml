@@ -1,0 +1,36 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="PAYBEN" directorySegmentName="seg_0" id="0A660D87-12E7-6B22-4172-4D6212DC9BE6">
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-23 11:55:25 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<schemaObject>85EC452A-AAC3-D4D3-81A7-C51E0B6ED4D9</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<tableSpace>A1255D33-A03D-06FC-E9F8-B7E20DB55E0B</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="ID" id="34119F2B-3EDB-7C00-8371-A36651830B1A">
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-23 11:55:25 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="DESCRIPTION" id="7470869A-970D-00E9-FC76-321E61AC1163">
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-23 11:55:25 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="MAXLIMIT" id="AB000D24-E574-EA36-F1FA-0490A97F6DEE">
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-23 11:55:25 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="PAYBEN_PK" id="251A13B4-D97B-B752-589A-F597FA8D2E05">
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-23 11:55:25 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

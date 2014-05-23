@@ -1,0 +1,199 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2AEBA861-A94F-6CE9-6FC5-F72067E6E0B7" name="ROSTER">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>OJT</sourceObjSchema>
+<sourceObjName>ROSTER</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 14:39:51 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<importedID>4ACAFFC2-9261-8025-FEF7-2405BAB8861A</importedID>
+<schemaObject>85EC452A-AAC3-D4D3-81A7-C51E0B6ED4D9</schemaObject>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="FD2A83A0-FE9B-EA6A-06F6-3BAE47946BD2">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>ROSTER</sourceObjSchema>
+<sourceObjName>ID</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 14:39:51 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<importedID>2B7D48DD-7CC7-67E6-F981-8C9AFE662B64</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="STFID" id="240297E4-5BC9-BB7F-0BED-269D9D2A2E3C">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>ROSTER</sourceObjSchema>
+<sourceObjName>STFID</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 14:39:51 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<importedID>8B28470D-1D04-9C0E-156A-09DB2F8C8CB7</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="RSTARTDATE" id="26E2268E-0BC4-CFF7-CEE0-C454301FBB3D">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>ROSTER</sourceObjSchema>
+<sourceObjName>RSTARTDATE</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 14:39:51 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<importedID>E6EA97D1-B8E1-A8A7-9FB2-E689AEE4FC4E</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DAYOFWEEK" id="D6D47867-4604-9871-A3D2-DECD7A56A9FE">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>ROSTER</sourceObjSchema>
+<sourceObjName>DAYOFWEEK</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 14:39:51 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<importedID>00A76F31-32CA-5C79-2E8F-3D6B48B1CB4C</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="START_TIME" id="65D17F86-07CD-379E-0BFC-5580809E0EE7">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>ROSTER</sourceObjSchema>
+<sourceObjName>START_TIME</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 14:39:51 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<importedID>85E4312F-70BB-C5BE-10C8-FA36D2A477F0</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FINISH_TIME" id="CACAA0FD-265A-E7AA-D3DB-509645C595EC">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>ROSTER</sourceObjSchema>
+<sourceObjName>FINISH_TIME</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 14:39:51 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<importedID>BAD1FD89-1967-3CD7-C058-90919671DADE</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="BREAK_TIME" id="FFF1DE3E-E750-85A0-D445-8F9850204572">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>ROSTER</sourceObjSchema>
+<sourceObjName>BREAK_TIME</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 14:39:51 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<importedID>59BD8537-72DF-FF63-B953-B16E339C9C07</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CREATION_DATE" id="71ADFCAB-139E-9882-C91D-0986990A9977">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>ROSTER</sourceObjSchema>
+<sourceObjName>CREATION_DATE</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 14:39:51 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<importedID>074DDEFB-7873-179B-30D2-F2953CD47CAE</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT047</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CREATED_BY" id="EBF0D3A9-42EB-4859-31AF-91E5DBB46220">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>ROSTER</sourceObjSchema>
+<sourceObjName>CREATED_BY</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 14:39:51 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<importedID>5015BCD3-6ADE-CBF7-6191-F7B0509B9455</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="UPDATION_DATE" id="CD1DF610-A636-5D7C-931A-96EC64269D5B">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>ROSTER</sourceObjSchema>
+<sourceObjName>UPDATION_DATE</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 14:39:51 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<importedID>AC9C7241-C1DC-51BD-D56D-5EE593B0FF13</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT047</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="UPDATED_BY" id="28286EE5-EB29-E276-EBC6-93AB2385D10D">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>ROSTER</sourceObjSchema>
+<sourceObjName>UPDATED_BY</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 14:39:51 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<importedID>CA4B07ED-ABD1-008C-7512-7B0F5EAAD1B3</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A197BF2E-8246-EE13-C3E6-AAA02CE88F3C" name="ROSTER_PK">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>OJT</sourceObjSchema>
+<sourceObjName>ROSTER_PK</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 14:39:51 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<importedID>02C60F3C-DEE0-52B1-1598-9E61FAC0F045</importedID>
+<indexState>Unique Plain Index</indexState>
+<schemaObject>85EC452A-AAC3-D4D3-81A7-C51E0B6ED4D9</schemaObject>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FD2A83A0-FE9B-EA6A-06F6-3BAE47946BD2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

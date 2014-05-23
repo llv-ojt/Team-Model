@@ -1,0 +1,391 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1C05FF60-A868-E7A2-EF0B-824276345E93" name="STF">
+<sourceConnName>MaxDev-LLV3</sourceConnName>
+<sourceObjSchema>LLV3</sourceObjSchema>
+<sourceObjName>STF</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 10:12:20 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<schemaObject>85EC452A-AAC3-D4D3-81A7-C51E0B6ED4D9</schemaObject>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="AB8C881F-BF04-FC75-6BE6-488CD2A1F65F">
+<sourceConnName>MaxDev-LLV3</sourceConnName>
+<sourceObjSchema>STF</sourceObjSchema>
+<sourceObjName>ID</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 10:12:24 UTC</createdTime>
+<commentInRDBMS>from common ID_SEQ</commentInRDBMS>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<domain>ACAFF37B-6043-A313-7213-9C358212F4B2</domain>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FULLNAME" id="0B8B53FD-4365-A363-182A-6155B708232D">
+<sourceConnName>MaxDev-LLV3</sourceConnName>
+<sourceObjSchema>STF</sourceObjSchema>
+<sourceObjName>FULLNAME</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 10:12:24 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SNAME" id="E605A26E-5820-E13B-7E71-B8822DB2C3FE">
+<sourceConnName>MaxDev-LLV3</sourceConnName>
+<sourceObjSchema>STF</sourceObjSchema>
+<sourceObjName>SNAME</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 10:12:25 UTC</createdTime>
+<commentInRDBMS>Nickname / short name</commentInRDBMS>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PHONE" id="46506245-4359-FA71-A558-A9C426F41889">
+<sourceConnName>MaxDev-LLV3</sourceConnName>
+<sourceObjSchema>STF</sourceObjSchema>
+<sourceObjName>PHONE</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 10:12:24 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="EMAIL" id="C040D3BC-3E4B-CE2B-4C07-6869080ADD17">
+<sourceConnName>MaxDev-LLV3</sourceConnName>
+<sourceObjSchema>STF</sourceObjSchema>
+<sourceObjName>EMAIL</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 10:12:24 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DEPARTMENT" id="F2733F13-A9B7-0F66-6FD5-49823A08E939">
+<sourceConnName>MaxDev-LLV3</sourceConnName>
+<sourceObjSchema>STF</sourceObjSchema>
+<sourceObjName>ROLE</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 10:12:24 UTC</createdTime>
+<commentInRDBMS>Type C on LOOKUP table</commentInRDBMS>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="JOBTITLE" id="008BB696-5691-0ACB-4EBB-902EB3ECAC20">
+<sourceConnName>MaxDev-LLV3</sourceConnName>
+<sourceObjSchema>STF</sourceObjSchema>
+<sourceObjName>JOBTITLE</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 10:12:24 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TIN" id="778111F2-2B26-64C5-0F04-C4DDFFE91A90">
+<sourceConnName>MaxDev-LLV3</sourceConnName>
+<sourceObjSchema>STF</sourceObjSchema>
+<sourceObjName>TIN</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 10:12:25 UTC</createdTime>
+<commentInRDBMS>format 123-123-123</commentInRDBMS>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>12 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SSS" id="612EFB8A-7E1A-805E-4E70-3EC9A9006A9F">
+<sourceConnName>MaxDev-LLV3</sourceConnName>
+<sourceObjSchema>STF</sourceObjSchema>
+<sourceObjName>SSS</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 10:12:25 UTC</createdTime>
+<commentInRDBMS>format: 12-12345678 </commentInRDBMS>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>12 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PHILHEALTH" id="29A5A4FF-2778-0EB5-9CBD-DA8CFEB52A66">
+<sourceConnName>MaxDev-LLV3</sourceConnName>
+<sourceObjSchema>STF</sourceObjSchema>
+<sourceObjName>PHILHEALTH</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 10:12:25 UTC</createdTime>
+<commentInRDBMS>format 12-1234567890</commentInRDBMS>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>14 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PAG_IBIG" id="551C02A6-AF3B-A5C9-13E9-3D3F6C5FB8B9">
+<sourceConnName>MaxDev-LLV3</sourceConnName>
+<sourceObjSchema>STF</sourceObjSchema>
+<sourceObjName>PAG_IBIG</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 10:12:25 UTC</createdTime>
+<commentInRDBMS>1234-12345678</commentInRDBMS>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="BIRTHDATE" id="366A0184-A158-0BAE-AB4F-E49ACE0F5B6D">
+<sourceConnName>MaxDev-LLV3</sourceConnName>
+<sourceObjSchema>STF</sourceObjSchema>
+<sourceObjName>BIRTHDATE</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 10:12:24 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="EMPLOYDATE" id="9A6210CC-4AD9-707D-62C6-E692E6F5933F">
+<sourceConnName>MaxDev-LLV3</sourceConnName>
+<sourceObjSchema>STF</sourceObjSchema>
+<sourceObjName>EMPLOYDATE</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 10:12:24 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ADDRESS" id="CB4F1625-1980-1AB4-34C5-8422A772DD08">
+<sourceConnName>MaxDev-LLV3</sourceConnName>
+<sourceObjSchema>STF</sourceObjSchema>
+<sourceObjName>ADDRESS</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 10:12:24 UTC</createdTime>
+<commentInRDBMS>current residential address</commentInRDBMS>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="HOURSPERDAY" id="9022B42A-7558-2087-02AA-92A4C7D2DF51">
+<sourceConnName>MaxDev-LLV3</sourceConnName>
+<sourceObjSchema>STF</sourceObjSchema>
+<sourceObjName>HOURSPERDAY</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 10:12:25 UTC</createdTime>
+<commentInRDBMS>normal work day number of hours</commentInRDBMS>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="EXTRAHOURS" id="A7C65FD9-89FE-FA10-4DC8-7442150C91FF">
+<sourceConnName>MaxDev-LLV3</sourceConnName>
+<sourceObjSchema>STF</sourceObjSchema>
+<sourceObjName>EXTRAHOURS</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 10:12:25 UTC</createdTime>
+<commentInRDBMS>number of extra hours required per day</commentInRDBMS>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>1</dataTypePrecision>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="EXTRASALARY" id="DE8064D3-781F-0CB2-4301-C9A244402445">
+<sourceConnName>MaxDev-LLV3</sourceConnName>
+<sourceObjSchema>STF</sourceObjSchema>
+<sourceObjName>EXTRASALARY</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 10:12:25 UTC</createdTime>
+<commentInRDBMS>compensation linked to extra hours</commentInRDBMS>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="VACATIONDAYS" id="70502679-7E5C-5931-7C08-1598655275A4">
+<sourceConnName>MaxDev-LLV3</sourceConnName>
+<sourceObjSchema>STF</sourceObjSchema>
+<sourceObjName>VACATIONDAYS</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 10:12:25 UTC</createdTime>
+<commentInRDBMS>days per year entitlement</commentInRDBMS>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SICKLEAVEDAYS" id="513E900E-9E93-655F-FA5B-C3BCFA9FE7B5">
+<sourceConnName>MaxDev-LLV3</sourceConnName>
+<sourceObjSchema>STF</sourceObjSchema>
+<sourceObjName>SICKLEAVEDAYS</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 10:12:25 UTC</createdTime>
+<commentInRDBMS>days per year entitlement</commentInRDBMS>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOTES" id="79EADDD1-14E3-FEB9-CFC5-F5875D8D9635">
+<sourceConnName>MaxDev-LLV3</sourceConnName>
+<sourceObjSchema>STF</sourceObjSchema>
+<sourceObjName>NOTES</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 10:12:25 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>4000 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TERMINDATE" id="6E80958F-6B3F-B0E7-81A3-8C864C6E6916">
+<sourceConnName>MaxDev-LLV3</sourceConnName>
+<sourceObjSchema>STF</sourceObjSchema>
+<sourceObjName>TERMINDATE</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 10:12:25 UTC</createdTime>
+<commentInRDBMS>Termination Date, null means still employed</commentInRDBMS>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>E2BF4831-2B0D-4222-2654-D871F0062DDE</domain>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="OARSLOGDT" id="F1D72AC2-D5F2-F2C1-9449-95E6656C259D">
+<sourceConnName>MaxDev-LLV3</sourceConnName>
+<sourceObjSchema>STF</sourceObjSchema>
+<sourceObjName>OARSLOGDT</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 10:12:26 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PAYBASIS" id="9137C651-2CE9-9058-2820-0DBB14C705EF">
+<sourceConnName>MaxDev-LLV3</sourceConnName>
+<sourceObjSchema>STF</sourceObjSchema>
+<sourceObjName>PAYBASIS</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 10:12:26 UTC</createdTime>
+<commentInRDBMS>M=MonthlySalary, H=HourlyRate, D=DailyRate</commentInRDBMS>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DEPENDANTS" id="32D46067-A341-F3A0-C1B5-5962EA8A673B">
+<sourceConnName>MaxDev-LLV3</sourceConnName>
+<sourceObjSchema>STF</sourceObjSchema>
+<sourceObjName>DEPENDANTS</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 10:12:26 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>1</dataTypePrecision>
+<defaultValue>0</defaultValue>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="22CB3CAF-BEE9-8FCA-59D0-ACD04B333E45" name="STF_PK">
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 15:17:26 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AB8C881F-BF04-FC75-6BE6-488CD2A1F65F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="099D9661-EB91-3312-D620-FDE2BB0BDC2B" name="STF_ROLE_IDX">
+<sourceConnName>MaxDev-LLV3</sourceConnName>
+<sourceObjSchema>LLV3</sourceObjSchema>
+<sourceObjName>STF_ROLE_IDX</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 10:12:36 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<schemaObject>5170FFFE-79B4-4854-ABD2-D8E6F83DBCB4</schemaObject>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F2733F13-A9B7-0F66-6FD5-49823A08E939"/>
+<colUsage columnID="E605A26E-5820-E13B-7E71-B8822DB2C3FE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

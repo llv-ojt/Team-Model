@@ -1,0 +1,110 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="076BCDC1-D438-85EF-BFF9-0B00B6E3E59E" name="PAYCFG">
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 15:12:29 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="REGHOL_OFF" id="E70F7D07-4BE8-D981-2D23-1BB1769C67CD">
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 15:15:32 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>2F6DAFCF-847F-48AD-1D3C-31117D2904C8</domain>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="REGHOL_ON" id="6D099BBA-4541-B9BF-C337-9918D875250F">
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 16:19:24 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>2F6DAFCF-847F-48AD-1D3C-31117D2904C8</domain>
+<autoIncrementCycle>false</autoIncrementCycle>
+<listOfRanges>
+<rangeDef class="oracle.dbtools.crest.model.design.constraint.AVT">
+<beginValue>50</beginValue>
+<endValue>9999</endValue>
+<description>Allowed range for CFG values</description>
+</rangeDef>
+</listOfRanges>
+</Column>
+<Column name="SPECIAL_ON" id="EEE2D894-EC6A-E189-66B1-B349572861DA">
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 16:19:24 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>2F6DAFCF-847F-48AD-1D3C-31117D2904C8</domain>
+<autoIncrementCycle>false</autoIncrementCycle>
+<listOfRanges>
+<rangeDef class="oracle.dbtools.crest.model.design.constraint.AVT">
+<beginValue>50</beginValue>
+<endValue>9999</endValue>
+<description>Allowed range for CFG values</description>
+</rangeDef>
+</listOfRanges>
+</Column>
+<Column name="SPECIAL_OFF" id="4E5921EE-CD19-9909-ECCE-220FB257758E">
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 16:19:24 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>2F6DAFCF-847F-48AD-1D3C-31117D2904C8</domain>
+<autoIncrementCycle>false</autoIncrementCycle>
+<listOfRanges>
+<rangeDef class="oracle.dbtools.crest.model.design.constraint.AVT">
+<beginValue>50</beginValue>
+<endValue>9999</endValue>
+<description>Allowed range for CFG values</description>
+</rangeDef>
+</listOfRanges>
+</Column>
+<Column name="SUNDAY" id="DC36A583-8AA7-0F96-3901-5D4CDC39532A">
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 16:19:24 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>2F6DAFCF-847F-48AD-1D3C-31117D2904C8</domain>
+<autoIncrementCycle>false</autoIncrementCycle>
+<listOfRanges>
+<rangeDef class="oracle.dbtools.crest.model.design.constraint.AVT">
+<beginValue>50</beginValue>
+<endValue>9999</endValue>
+<description>Allowed range for CFG values</description>
+</rangeDef>
+</listOfRanges>
+</Column>
+<Column name="OVERTIME" id="C208A165-6B61-E371-7639-F7E62012FC88">
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 16:19:24 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>2F6DAFCF-847F-48AD-1D3C-31117D2904C8</domain>
+<autoIncrementCycle>false</autoIncrementCycle>
+<listOfRanges>
+<rangeDef class="oracle.dbtools.crest.model.design.constraint.AVT">
+<beginValue>50</beginValue>
+<endValue>9999</endValue>
+<description>Allowed range for CFG values</description>
+</rangeDef>
+</listOfRanges>
+</Column>
+<Column name="ROUNDING" id="198B05C9-4E04-0E78-D18B-3107F2014015">
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 16:19:24 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+</Table>

@@ -1,0 +1,22 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="Abstract Model" id="3741341D-4F10-42B7-805F-0D63D701FFF8" version="3.5">
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 09:42:58 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>3741341D-4F10-42B7-805F-0D63D701FFF8</designId>
+<usedDesignStorageDescriptors>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="990DF780-0A7F-7D3F-AB15-E83DAA423F19">
+<designStoragePath>C:\</designStoragePath>
+</designDescr>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="3741341D-4F10-42B7-805F-0D63D701FFF8">
+<designStoragePath>C:\Users\IGNITEME\Dropbox\Project - Payroll system\Abstract Model</designStoragePath>
+</designDescr>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="F8DA4D6E-5960-AEF4-5061-99B315F19984">
+<designStoragePath>C:\Users\IGNITEME\Desktop\TestData</designStoragePath>
+</designDescr>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="A6B720B1-CD41-676C-3745-254E8D17449F">
+<designStoragePath>C:\Users\OJT\Dropbox\Project - Payroll system\MODELS\RJAbstractModel</designStoragePath>
+</designDescr>
+</usedDesignStorageDescriptors>
+</OSDM_Design>

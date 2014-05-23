@@ -1,0 +1,32 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.storage.oracle.v11g.StorageDesignOraclev11g>
+   <object objectType="TSpace" objectID="41250657-D6B2-8D33-28E6-A87C7C547396" name="SYSTEM" seqName="seg_0"/>
+   <object objectType="TSpace" objectID="A1255D33-A03D-06FC-E9F8-B7E20DB55E0B" name="USERS" seqName="seg_0"/>
+   <object objectType="User" objectID="1B9AC04B-8F3A-4F00-E4D1-23316FEC7A48" name="LLV3" seqName="seg_0"/>
+   <object objectType="User" objectID="MDSYS" name="MDSYS" seqName="seg_0"/>
+   <object objectType="User" objectID="BB283DC7-5CF7-A7BE-A5E8-70B1ADBE89DD" name="OJT" seqName="seg_0"/>
+   <object objectType="User" objectID="PUBLIC" name="PUBLIC" seqName="seg_0"/>
+   <object objectType="SType" objectID="47E390DE-0671-C4B1-8428-0F45CBEE18F8" name="SDO_GEOMETRY" seqName="seg_0"/>
+   <object objectType="SType" objectID="F72C39E0-D1CA-8821-2AD7-A1E95A37D3D1" name="XMLTYPE" seqName="seg_0"/>
+   <object objectType="Table" objectID="076BCDC1-D438-85EF-BFF9-0B00B6E3E59E" name="PAYCFG" seqName="seg_0"/>
+   <object objectType="Table" objectID="0A660D87-12E7-6B22-4172-4D6212DC9BE6" name="PAYBEN" seqName="seg_0"/>
+   <object objectType="Table" objectID="0ABC5688-DE9B-F95E-F621-0B8F8A073520" name="STFBEN" seqName="seg_0"/>
+   <object objectType="Table" objectID="14F79755-5840-9EC8-B2BD-227E1A86CDA3" name="PAYROST" seqName="seg_0"/>
+   <object objectType="Table" objectID="1C05FF60-A868-E7A2-EF0B-824276345E93" name="STF" seqName="seg_0"/>
+   <object objectType="Table" objectID="2AEBA861-A94F-6CE9-6FC5-F72067E6E0B7" name="ROSTER" seqName="seg_0"/>
+   <object objectType="Table" objectID="38D5A39C-144B-4941-9680-8B1F63635210" name="STFPAYBEN" seqName="seg_0"/>
+   <object objectType="Table" objectID="5677E40F-BD19-014D-2AC8-1C5D1EFA8EE8" name="CONFIG" seqName="seg_0"/>
+   <object objectType="Table" objectID="5D907026-1DF9-328B-1883-CCBF1EA926CA" name="LU_RST_TIMES" seqName="seg_0"/>
+   <object objectType="Table" objectID="767C8A6D-D591-3561-4136-AB9B84D0C18E" name="PAYADV" seqName="seg_0"/>
+   <object objectType="Table" objectID="780FFB8B-0CD5-57EA-813F-92459652F4A9" name="PAYIN" seqName="seg_0"/>
+   <object objectType="Table" objectID="7FAD3176-398B-6206-9357-F5D4B8113693" name="STFPAY" seqName="seg_0"/>
+   <object objectType="Table" objectID="980726B3-5BD3-A0B8-2212-6F08B231319E" name="PAYHIS" seqName="seg_0"/>
+   <object objectType="Table" objectID="9BCF7CA8-9FA2-D6EC-8990-5C24199DAEA5" name="RST" seqName="seg_0"/>
+   <object objectType="Table" objectID="A43945ED-9C94-534E-8ED9-11369ABDB45C" name="WORKSTAT" seqName="seg_0"/>
+   <object objectType="Table" objectID="BB1F0ECD-8D37-B813-D3D2-A8132D6B9EED" name="LOOKUP" seqName="seg_0"/>
+   <object objectType="Table" objectID="BE6B2BA9-A2D3-D1E8-7BDC-1C4BBB863B04" name="USR" seqName="seg_0"/>
+   <object objectType="Table" objectID="CF91922C-B16A-3B62-E7C7-01D50829BD2A" name="PAYCAL" seqName="seg_0"/>
+   <object objectType="Segment" objectID="9D623C16-C7D7-33CC-0297-470EBB4CFBF3" name="Storage1" seqName="seg_0"/>
+   <object objectType="Segment" objectID="A954284A-9FE9-D2AA-255A-7BF04BB1DB36" name="Storage2" seqName="seg_0"/>
+   <object objectType="Segment" objectID="37CA1F58-D90C-C77A-F5C0-8BAD6E1D5771" name="Storage5" seqName="seg_0"/>
+</oracle.dbtools.crest.model.design.storage.oracle.v11g.StorageDesignOraclev11g>

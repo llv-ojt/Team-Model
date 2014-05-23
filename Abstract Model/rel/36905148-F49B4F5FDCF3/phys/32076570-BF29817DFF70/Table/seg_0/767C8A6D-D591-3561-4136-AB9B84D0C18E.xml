@@ -1,0 +1,48 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="PAYADV" directorySegmentName="seg_0" id="767C8A6D-D591-3561-4136-AB9B84D0C18E">
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-23 11:55:25 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<schemaObject>85EC452A-AAC3-D4D3-81A7-C51E0B6ED4D9</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<tableSpace>A1255D33-A03D-06FC-E9F8-B7E20DB55E0B</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="DATE" id="8AA705D4-48FF-54A1-79AF-D057EFBE4ACC">
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-23 11:55:25 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ID" id="8EA77C0F-2E77-CC81-8A2F-8F1F73BF04BF">
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-23 11:55:25 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="AMOUNT" id="BFE86222-2E7B-628C-24CC-2F7EB368F1A2">
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-23 11:55:25 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="STFID" id="F92ED822-6C01-0349-2C36-8991E07AF641">
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-23 11:55:25 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="PAYADV_STF_FK" id="8E4C80C5-D09A-23D1-2071-1EC6DD6652A0">
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-23 11:55:25 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="PAYADV_PK" id="AB533F97-7D1B-4F23-A860-82137EE534B6">
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-23 11:55:25 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

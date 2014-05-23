@@ -1,0 +1,74 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A43945ED-9C94-534E-8ED9-11369ABDB45C" name="WORKSTAT">
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-23 13:03:34 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<schemaObject>85EC452A-AAC3-D4D3-81A7-C51E0B6ED4D9</schemaObject>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="PAYHIS_ID" id="F5EA3BFE-8384-3FC3-5548-5DFA43193D6E">
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-23 13:48:51 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<domain>ACAFF37B-6043-A313-7213-9C358212F4B2</domain>
+<delegate>FB3323E9-3587-D792-06CC-5D0314E97546</delegate>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4B32829D-C2EE-3AD2-479B-512901E6C526" referredColumn="FB3323E9-3587-D792-06CC-5D0314E97546"/>
+</associations>
+</Column>
+<Column name="VACATIONUSED" id="8863C728-E512-8B81-0C69-78B1F63B25B0">
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-23 13:20:22 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>562936AC-3991-105D-9587-71B5E469066B</domain>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SICKLEAVEUSED" id="849A61D9-25B3-B478-0B19-BAC5B5DD1550">
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-23 13:20:50 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>562936AC-3991-105D-9587-71B5E469066B</domain>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="UNPAIDBREAK" id="E1F6F3FE-E8E1-6FB9-B30E-16711A5AE7FE">
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-23 13:22:00 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>FCE5F684-F211-7A91-0FA8-0EA03C125A61</domain>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ROSTER" id="885D794E-CD26-EE31-32A0-8A5F9FF8A42B">
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-23 13:44:55 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="5577FE43-91C8-2EF3-3D03-9FF08F039F12" name="WORKSTAT_PAYHIS_FK">
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-23 13:50:34 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F5EA3BFE-8384-3FC3-5548-5DFA43193D6E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

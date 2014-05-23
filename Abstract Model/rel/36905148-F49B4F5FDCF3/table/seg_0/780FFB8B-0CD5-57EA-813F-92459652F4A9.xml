@@ -1,0 +1,166 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="780FFB8B-0CD5-57EA-813F-92459652F4A9" name="PAYIN">
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 17:28:17 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<schemaObject>85EC452A-AAC3-D4D3-81A7-C51E0B6ED4D9</schemaObject>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="1D998CA9-5476-687D-6F46-01A453B4F133">
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 17:29:26 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>ACAFF37B-6043-A313-7213-9C358212F4B2</domain>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="STF_ID" id="D9ED0059-096D-8075-1913-93B589CA6B6D">
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 17:29:26 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<domain>ACAFF37B-6043-A313-7213-9C358212F4B2</domain>
+<delegate>AB8C881F-BF04-FC75-6BE6-488CD2A1F65F</delegate>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="735CAA65-374E-30BC-BB87-1556C590F83C" referredColumn="AB8C881F-BF04-FC75-6BE6-488CD2A1F65F"/>
+</associations>
+</Column>
+<Column name="NORMALDAYS" id="8DAFB25B-1907-CBA5-3EE3-28841012F398">
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 17:29:26 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="REGHOL_ON" id="3DFA9C3F-D1EC-1129-A4DD-34EBA80A64D1">
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 17:29:26 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="REGHOL_OFF" id="6C396C74-3E1B-F32E-658A-9E2F1E8ABD2B">
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 17:29:26 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SPECIAL_ON" id="1BCF2E30-24C9-D9EE-29EE-3F8423DF40AA">
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 17:29:26 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SPECIAL_OFF" id="E5482493-CFE0-B385-C8D1-C5DDB4959F64">
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 17:29:26 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SICKDAY" id="82B37040-BFE3-A53B-13CE-EFF29599E2FB">
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 17:29:26 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="VACATIONDAY" id="04CD62B2-C6D4-F6CB-E91B-12AF93E879A1">
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 17:29:26 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LEAVE" id="2D511C20-577B-3224-4B8F-984AB46D2E72">
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 17:29:26 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="AWOL" id="37E08106-2290-8EE9-95C2-967749702D67">
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 17:29:26 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="OTHOURS" id="29ABE11B-000E-C818-B97E-C237A2AFEAF4">
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 17:29:26 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F04AA5FC-5D81-FC53-629D-880136FD8CB7" name="PAYIN_PK">
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 17:29:36 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1D998CA9-5476-687D-6F46-01A453B4F133"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CA33C9D5-B813-9D7B-6825-5ECE3389E501" name="PAYIN_STF_FK">
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 17:32:01 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D9ED0059-096D-8075-1913-93B589CA6B6D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

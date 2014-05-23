@@ -1,0 +1,43 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="CF91922C-B16A-3B62-E7C7-01D50829BD2A" name="PAYCAL">
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 17:34:13 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<schemaObject>85EC452A-AAC3-D4D3-81A7-C51E0B6ED4D9</schemaObject>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="DATE" id="38726F5B-1078-08B1-DEE3-B475D94162AB">
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 17:35:28 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TYPE" id="7717F28E-B199-0972-E0CD-6DB46596C96D">
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 17:35:28 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 BYTE</dataTypeSize>
+<domain>D3CCE689-8BC9-4647-5DA5-376960D78803</domain>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="417EA334-41A7-A117-E93F-E9D92DA3C21B" name="PAYCAL_PK">
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 17:35:28 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="38726F5B-1078-08B1-DEE3-B475D94162AB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

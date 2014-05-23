@@ -1,0 +1,43 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="STFPAY" directorySegmentName="seg_0" id="7FAD3176-398B-6206-9357-F5D4B8113693">
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-23 12:10:33 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<schemaObject>85EC452A-AAC3-D4D3-81A7-C51E0B6ED4D9</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<tableSpace>A1255D33-A03D-06FC-E9F8-B7E20DB55E0B</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="ID" id="174A54F0-DC67-D272-C711-B8881BB713B2">
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-23 12:15:48 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="DAYSPERWEEK" id="25CAC104-8BFA-E0CF-BA86-EB468D1FBD7F">
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-23 12:15:22 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="SALARY" id="32620CA2-DB93-4093-31CF-C81FCD6F03AA">
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-23 12:23:24 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="BASESALARY" id="456F13D9-2336-53B6-C62F-AC9C3FA7E5DB">
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-23 12:18:34 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="LAST_PAYD" id="8D0BB863-3579-865F-2339-86A2A6BBA455">
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-23 12:20:12 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ADVANCEPAY" id="CC04EF24-C38F-2682-A31F-3551BDBE5384">
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-23 12:19:51 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+</TableProxyOraclev11g>

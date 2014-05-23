@@ -1,0 +1,65 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="38D5A39C-144B-4941-9680-8B1F63635210" name="STFPAYBEN">
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 17:42:01 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<schemaObject>85EC452A-AAC3-D4D3-81A7-C51E0B6ED4D9</schemaObject>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="STF_ID" id="E6254B46-76B5-00AD-03D5-B7D26641CAF7">
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 17:42:41 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<domain>ACAFF37B-6043-A313-7213-9C358212F4B2</domain>
+<delegate>AB8C881F-BF04-FC75-6BE6-488CD2A1F65F</delegate>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="775EB61D-EE3F-6B52-721D-B574AFE31F0E" referredColumn="AB8C881F-BF04-FC75-6BE6-488CD2A1F65F"/>
+</associations>
+</Column>
+<Column name="PAYDATE" id="9B0A2AB8-9D70-24D1-DDE8-113EED8FB8DD">
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 17:42:41 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="BEN_ID" id="471401C1-F439-BC1D-F485-A40396D07937">
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 17:42:41 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>ACAFF37B-6043-A313-7213-9C358212F4B2</domain>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="VALUE" id="3B5FF098-9A5A-044E-9742-67A2F6AFB88B">
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 17:42:41 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C1310FD8-5213-CDD5-C36A-88EFAF36217B" name="STFPAYBEN_STFID_FK">
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 17:44:43 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E6254B46-76B5-00AD-03D5-B7D26641CAF7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

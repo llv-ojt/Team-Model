@@ -1,0 +1,45 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="WORKSTAT" directorySegmentName="seg_0" id="A43945ED-9C94-534E-8ED9-11369ABDB45C">
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-23 13:03:34 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<schemaObject>85EC452A-AAC3-D4D3-81A7-C51E0B6ED4D9</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<tableSpace>A1255D33-A03D-06FC-E9F8-B7E20DB55E0B</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="SICKLEAVEUSED" id="849A61D9-25B3-B478-0B19-BAC5B5DD1550">
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-23 13:20:50 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ROSTER" id="885D794E-CD26-EE31-32A0-8A5F9FF8A42B">
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-23 13:44:55 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="VACATIONUSED" id="8863C728-E512-8B81-0C69-78B1F63B25B0">
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-23 13:20:22 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="UNPAIDBREAK" id="E1F6F3FE-E8E1-6FB9-B30E-16711A5AE7FE">
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-23 13:22:00 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="PAYHIS_ID" id="F5EA3BFE-8384-3FC3-5548-5DFA43193D6E">
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-23 13:48:51 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="WORKSTAT_PAYHIS_FK" id="5577FE43-91C8-2EF3-3D03-9FF08F039F12">
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-23 13:50:34 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+</TableProxyOraclev11g>

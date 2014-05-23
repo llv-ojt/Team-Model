@@ -1,0 +1,236 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="33EEDDC2-5F50-E113-41CE-D3592F6453BF" name="LOGGER_LOGS">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>OJT</sourceObjSchema>
+<sourceObjName>LOGGER_LOGS</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:29 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<schemaObject>DD61CB21-E947-9CB5-F4CC-EB516A951FB9</schemaObject>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="D6FBBAEF-2309-C279-8AC2-086C602A00FF">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>LOGGER_LOGS</sourceObjSchema>
+<sourceObjName>ID</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LOGGER_LEVEL" id="740C39EF-C087-10A2-CAE0-88C8401C6BB0">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>LOGGER_LOGS</sourceObjSchema>
+<sourceObjName>LOGGER_LEVEL</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TEXT" id="3BEA7F29-FBC3-9C83-2584-7C9342DA2AA3">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>LOGGER_LOGS</sourceObjSchema>
+<sourceObjName>TEXT</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>4000 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TIME_STAMP" id="6B24BFE3-5FC8-F9E3-D630-E7F0A6C42B39">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>LOGGER_LOGS</sourceObjSchema>
+<sourceObjName>TIME_STAMP</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SCOPE" id="FE0B2BF0-7380-9E7E-D7F8-A59CF67D30C3">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>LOGGER_LOGS</sourceObjSchema>
+<sourceObjName>SCOPE</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1000 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MODULE" id="38ED1E57-9661-D3D0-7FB1-B181A06007D9">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>LOGGER_LOGS</sourceObjSchema>
+<sourceObjName>MODULE</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ACTION" id="841F847B-18A7-3740-0A12-62A8DEBBD052">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>LOGGER_LOGS</sourceObjSchema>
+<sourceObjName>ACTION</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="USER_NAME" id="9BC3930C-B41B-3E62-7A1F-3912AF51EE54">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>LOGGER_LOGS</sourceObjSchema>
+<sourceObjName>USER_NAME</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CLIENT_IDENTIFIER" id="23DA49D1-9E4B-557E-F814-5572616728AB">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>LOGGER_LOGS</sourceObjSchema>
+<sourceObjName>CLIENT_IDENTIFIER</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CALL_STACK" id="99EF380C-D5C6-57ED-C78E-969093CBA103">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>LOGGER_LOGS</sourceObjSchema>
+<sourceObjName>CALL_STACK</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>4000 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="UNIT_NAME" id="38DA60AA-EF72-85BF-5C54-0DAF2E99AA7C">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>LOGGER_LOGS</sourceObjSchema>
+<sourceObjName>UNIT_NAME</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LINE_NO" id="0F797643-802C-2ACF-FFC6-1A3BEEAA96B6">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>LOGGER_LOGS</sourceObjSchema>
+<sourceObjName>LINE_NO</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SCN" id="75BE4036-01FF-9102-191B-8E92AFE2348A">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>LOGGER_LOGS</sourceObjSchema>
+<sourceObjName>SCN</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="EXTRA" id="BE376609-CB69-6B9D-2828-71B5CDBF5F3F">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>LOGGER_LOGS</sourceObjSchema>
+<sourceObjName>EXTRA</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT028</logicalDatatype>
+<dataTypeSize>4000</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E646AA70-AEC3-1895-2236-476A01151DBD" name="LOGGER_LOGS_IDX1">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>OJT</sourceObjSchema>
+<sourceObjName>LOGGER_LOGS_IDX1</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<schemaObject>DD61CB21-E947-9CB5-F4CC-EB516A951FB9</schemaObject>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6B24BFE3-5FC8-F9E3-D630-E7F0A6C42B39"/>
+<colUsage columnID="740C39EF-C087-10A2-CAE0-88C8401C6BB0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="267F47FE-30F7-73BF-B2A5-A9A9FE7966D3" name="LOGGER_LOGS_PK">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>OJT</sourceObjSchema>
+<sourceObjName>LOGGER_LOGS_PK</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 11:38:30 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<schemaObject>DD61CB21-E947-9CB5-F4CC-EB516A951FB9</schemaObject>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D6FBBAEF-2309-C279-8AC2-086C602A00FF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

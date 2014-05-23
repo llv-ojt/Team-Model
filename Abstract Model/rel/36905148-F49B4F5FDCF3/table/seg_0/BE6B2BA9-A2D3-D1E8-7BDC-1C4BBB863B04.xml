@@ -1,0 +1,257 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="BE6B2BA9-A2D3-D1E8-7BDC-1C4BBB863B04" name="USR">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>OJT</sourceObjSchema>
+<sourceObjName>USR</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 14:39:51 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<importedID>A1D249A9-DA64-11A8-9CA7-40077F52BA88</importedID>
+<schemaObject>85EC452A-AAC3-D4D3-81A7-C51E0B6ED4D9</schemaObject>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="94D40CEC-E2A3-6651-61B1-5A581D3EB3E9">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>USR</sourceObjSchema>
+<sourceObjName>ID</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 14:39:51 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<importedID>08EA1C06-5B46-F10A-FD33-4A5E8ACBA3EA</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CODE" id="DF6A2802-5E8A-A70C-06F7-6159C52CF197">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>USR</sourceObjSchema>
+<sourceObjName>CODE</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 14:39:51 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<importedID>5BEA4A8B-963A-7B90-4A0A-1DBD8B6E7F9F</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>16 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TYPER" id="D8C776BC-07A2-A15B-19DE-60C83C0B5629">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>USR</sourceObjSchema>
+<sourceObjName>TYPER</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 14:39:51 UTC</createdTime>
+<commentInRDBMS>I=Internal, X=external, P=public</commentInRDBMS>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<importedID>723A6718-A0C9-2214-63AB-504DE44BAEA4</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CANRESERVE" id="FEC1BE19-5EAA-26F2-987E-5C1EDE8D203A">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>USR</sourceObjSchema>
+<sourceObjName>CANRESERVE</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 14:39:51 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<importedID>57FA4A5B-6404-7752-826C-925D50352D2E</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CANBOOK" id="DDAB325B-FE5A-0806-BF42-E16E42162A4C">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>USR</sourceObjSchema>
+<sourceObjName>CANBOOK</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 14:39:51 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<importedID>30393C85-3593-6C2E-7F4B-04363DA95ED5</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CANVIEW" id="6C281BEF-C64C-AD57-5E85-9399F902F66F">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>USR</sourceObjSchema>
+<sourceObjName>CANVIEW</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 14:39:51 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<importedID>3C49E9C9-9CF3-7BBC-AB31-E998D1DD5E0E</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NAME" id="E7A26FE2-2E29-0FC6-E213-9373D41AB431">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>USR</sourceObjSchema>
+<sourceObjName>NAME</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 14:39:51 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<importedID>1944882D-B8AE-23EB-DBC3-4A42690C154E</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="EMAIL" id="64CE66F5-935F-E512-E0B6-FF5DCEE8FFE8">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>USR</sourceObjSchema>
+<sourceObjName>EMAIL</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 14:39:51 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<importedID>5D45352F-0DD4-AD7F-5BF4-CE130AAA90EE</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="AGENTID" id="F2D53D1B-890E-F354-D8BE-EF8C8FF9C0AE">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>USR</sourceObjSchema>
+<sourceObjName>AGENTID</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 14:39:51 UTC</createdTime>
+<commentInRDBMS>External users MUST be associated with an AGT record</commentInRDBMS>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<importedID>111C2012-3CAD-5000-1357-7CC516B86787</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="UROLE" id="EFEF0B1A-87D6-B808-08E2-3DEE92963F75">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>USR</sourceObjSchema>
+<sourceObjName>UROLE</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 14:39:51 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<importedID>CA583A36-0677-2539-0E0B-7E14225521AF</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LAST_DOCID" id="F6BB36FA-A189-1EA1-31AD-1FD67949A7A8">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>USR</sourceObjSchema>
+<sourceObjName>LAST_DOCID</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 14:39:51 UTC</createdTime>
+<commentInRDBMS>New users are created with this pointer at zero so they can read through the old notes. The pointer is incremented automatically when a user reads a note and requests another.</commentInRDBMS>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<importedID>B591474F-9497-5D3C-DC7F-A873DA4DE56A</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<defaultValue>100</defaultValue>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LAST_NEWSID" id="C313FCC8-D5F4-3BD9-C055-861F4957DECD">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>USR</sourceObjSchema>
+<sourceObjName>LAST_NEWSID</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 14:39:51 UTC</createdTime>
+<commentInRDBMS>New users are created with this pointer at zero so they can read through the old news items. The pointer is incremented automatically when a user reads an item and requests another.</commentInRDBMS>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<importedID>7912FB63-A63D-37ED-962C-F85A9BD792AA</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<defaultValue>0</defaultValue>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="OARSLOGDT" id="7D48283D-E4F6-EB4F-8CDA-303775A4B2EE">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>USR</sourceObjSchema>
+<sourceObjName>OARSLOGDT</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 14:39:51 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<importedID>A417BE03-BFF3-FA06-0925-35155F1067A4</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="STFID" id="7E5AA3A6-600A-422B-51F8-10A2018E54FC">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>USR</sourceObjSchema>
+<sourceObjName>STFID</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 14:39:51 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<importedID>B1298358-E36C-3CDE-84DC-2429EDC6702D</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9189B921-5EDA-78B1-2CA2-1C4A0AE319EB" name="USR_PK">
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 16:31:28 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="94D40CEC-E2A3-6651-61B1-5A581D3EB3E9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="705F1847-356E-7B04-82AB-3D424C85B0B8" name="USR_CODE_IDX">
+<sourceConnName>LocalOJT</sourceConnName>
+<sourceObjSchema>OJT</sourceObjSchema>
+<sourceObjName>USR_CODE_IDX</sourceObjName>
+<createdBy>OJT</createdBy>
+<createdTime>2014-05-19 14:39:51 UTC</createdTime>
+<ownerDesignName>Abstract Model</ownerDesignName>
+<importedID>9BF5AEE9-DA15-8222-8BBB-AA938DC1D91C</importedID>
+<indexState>Unique Plain Index</indexState>
+<schemaObject>85EC452A-AAC3-D4D3-81A7-C51E0B6ED4D9</schemaObject>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DF6A2802-5E8A-A70C-06F7-6159C52CF197"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
